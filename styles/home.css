@@ -1,0 +1,105 @@
+#banner{
+	background:  	saddlebrown;
+	height: 101px;
+	color: white;
+	text-shadow: 0 0 5px;
+	padding-bottom: 10px;
+	padding-left: 20px; 
+}
+#footer{
+	background: sienna;
+	padding: 10px;
+	color: white
+
+
+}
+#menubar{
+	background: mintcream;
+
+}
+#menubar ul{
+	list-style-type: none;
+	display: flex;
+	background: #00000000;
+	padding: 10px;
+
+}
+#menubar ul li{
+	
+	background: lavender;
+	height: 30px;
+	padding: 10px;
+}
+#menubar ul li:hover a{
+	
+	color: white;
+}
+#menubar ul li:hover{
+	
+	background: saddlebrown;
+	cursor: pointer;
+}
+#ulmenu .active a{
+	color: white;
+} 
+#ulmenu .active{
+	background: saddlebrown;
+}
+#smallcards{
+	padding: 10px;
+	width: 60%;
+	margin-left: 20%;
+	box-shadow: 0 0 10px  grey;
+}
+#largecards{
+	padding: 10px;
+	width: 65%;
+	margin-left: 17%;
+	box-shadow: 0 0 10px  grey;
+}
+/* myplace */
+
+ul, #myplace{
+	list-style-type: none;
+	color: saddlebrown;
+}
+#myplace{
+	margin: 0;
+	padding: 0;
+}
+.ceret{
+	cursor: pointer;
+	user-select: none;
+}
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+.caret-down::before {
+  transform: rotate(90deg);
+}
+.nested {
+  display: none;
+}
+.active {
+  display: block;
+}
+
+
+
+@media (max-width: 800px){
+	#smallcards{
+	padding: 10px;
+	width: 100%;
+	margin-left: 0%;
+	box-shadow: 0 0 10px  grey;
+}
+#largecards{
+	padding: 10px;
+	width: 100%;
+	margin-left: 0%;
+	box-shadow: 0 0 10px  grey;
+}
+}
