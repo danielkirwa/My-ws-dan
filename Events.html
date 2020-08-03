@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Events</title>
+	<link rel="stylesheet" type="text/css" href="styles/banner.css">
+</head>
+<body>
+
+	<div id="navbar">
+  <a href="#default" id="logo"><img src="images/profile.jpg" alt="org logo" width="40px" style="border-radius: 50%"></a>
+  <div id="navbar-right">
+  	<a class="active"  href="#">Events</a>
+  	<a href="Home.html">Home</a>
+    <a href="Projects.html">Projects</a>
+    <a href="Links.html">Link</a>
+  </div>
+</div>
+<div id="content">
+
+	My events
+</div>
+<div id="moveup">
+	<center><div id="up"><a> <img src="images/moveup.png" id="up" onclick="topFunction()"> </a></div></center>
+	
+</div> 
+
+<div id="footer">
+		
+		<center>
+	<label style="font-size: 24px">Best Quote</label>
+	<p>If you think you don't know then go out there and see how skill full you are<br> and if you think know go out there and
+	you meet experts !!!</p> <br>
+<center>
+	<label style="font-size: 24px">Reach us ...</label><br><br>
+	
+<table>
+			<tr>
+				<td><a><img src="images/phone.png" width="24px"></a></td>
+				<td>0791958878</td>
+			</tr>
+			<tr>
+				<td><a><img src="images/phone.png" width="24px"></a></td>
+				<td>0738161992</td>
+			</tr>
+</table>
+	</center>
+</center>
+	<hr>
+	<center>
+	<center>
+		<label><b>Go online</b></label><br>
+
+		<table>
+			<tr>
+				<td><a href="mailto:kirwadan03@gmail.com?subject=My reach out!" style="color: black"><img src="images/Gmail.png" width="24px"> </a></td>
+				<td><a href="#">Email</a></td>
+			</tr>
+			<tr>
+				<td><a href="#" style="color: black"><img src="images/twitter.png" width="24px"></a></td>
+				<td><a href="#">Twitter</a></td>
+			</tr>
+			<tr>
+				<td><a href="#" style="color: black"><img src="images/skype.png" width="24px"></a></td>
+				<td><a href="#">Skype</a></td>
+			</tr>
+			<tr>
+				<td><a href="#" style="color: black"><img src="images/linkedin.png" width="24px"></a></td>
+				<td><a href="#">Linkedin</a></td>
+			</tr>
+			<tr>
+				<td><a href="#" style="color: black"><img src="images/facebook.png" width="24px"></a></td>
+				<td><a href="#">Facebook</a></td>
+			</tr>
+	
+	</table>
+	<p>
+		&copy; 2020-2020  &trade; &nbsp;&nbsp; my-ws-dan.com    
+	</p>
+	</center>
+	</center>
+	</div>
+
+	<script type="text/javascript">
+	
+			var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-400px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+/// 
+
+
+//Get the button
+var mybutton = document.getElementById("up");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>
