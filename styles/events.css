@@ -1,0 +1,81 @@
+#updiv{
+	display: none;
+}
+#imageholder{
+
+	background: #f1f1f1;
+	border-bottom-left-radius: 30%;
+	border-bottom-right-radius: 30%;
+	overflow: hidden;
+	padding: 10px;
+}
+
+#myeventsinfor{
+	width: 60%;
+	border-radius: 15px;
+	box-shadow: 0 0 10px grey;
+	margin-left: 20%;
+	padding: 10px;
+	overflow: hidden;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 50%;
+}
+
+#myevents{
+	width: 70%;
+	border-radius: 15px;
+	box-shadow: 0 0 10px grey;
+	margin-left: 15%;
+	padding: 10px;
+	border-width: 5px;
+	border-bottom-color: brown; 
+	border-bottom-style: groove;
+	border-bottom-left-radius: 30%;
+	border-bottom-right-radius: 30%;
+}
+
+
+
+#myevents header{
+	color: brown;
+	font-size: 24px;
+}
+#myeventsinfor header{
+	color: brown;
+	font-size: 24px;
+}
+@media screen and (max-width: 800px){
+	#myevents{
+	width: 98%;
+	border-radius: 15px;
+	box-shadow: 0 0 10px grey;
+	margin-left: 1%;
+	padding: 10px;
+	border-width: 5px;
+	border-bottom-color: brown; 
+	border-bottom-style: groove;
+	border-bottom-left-radius: 30%;
+	border-bottom-right-radius: 30%;
+}
+	
+
+
+#myeventsinfor{
+	width: 95%;
+	border-radius: 15px;
+	box-shadow: 0 0 10px grey;
+	margin-left: 2%;
+	padding: 10px;
+	overflow: hidden;
+	border-bottom-right-radius: 30%;
+	border-top-left-radius: 30%;
+}
+#myevents header{
+	color: brown;
+	font-size: 16px;
+}
+#myeventsinfor header{
+	color: brown;
+	font-size: 16px;
+}
+}

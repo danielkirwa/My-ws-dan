@@ -1,5 +1,4 @@
 
-
 #smallcards{
 	padding: 10px;
 	width: 60%;
@@ -48,13 +47,13 @@ ul, #myplace{
 @media (max-width: 800px){
 	#smallcards{
 	padding: 10px;
-	width: 100%;
+	width: 98%;
 	margin-left: 0%;
 	box-shadow: 0 0 10px  grey;
 }
 #largecards{
 	padding: 10px;
-	width: 100%;
+	width: 98%;
 	margin-left: 0%;
 	box-shadow: 0 0 10px  grey;
 }
