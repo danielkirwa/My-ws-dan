@@ -1,0 +1,34 @@
+#linkholder{
+background: #f1f1f1;
+padding: 10px;
+display: flex;
+}
+#linkpotrait{
+background: #f1f1f1;
+width: 38%;
+padding-left :10px;
+}
+#linkdiscription{
+	background: #f1f1f1;
+	width: 58%;
+	padding-left :10px;
+
+}
+@media screen and (max-width: 800px){
+	#linkholder{
+background: #f1f1f1;
+padding: 10px;
+display: block;
+}
+	#linkpotrait{
+background: #f1f1f1;
+width: 98%;
+padding-left :10px;
+}
+#linkdiscription{
+	background: #f1f1f1;
+	width: 98%;
+	padding-left :10px;
+
+}
+}
