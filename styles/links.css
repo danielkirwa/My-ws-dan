@@ -1,32 +1,61 @@
 #linkholder{
-background: #f1f1f1;
+	border-bottom-style: double;
 padding: 10px;
 display: flex;
+width: 60%;
+margin-left: 20%;
+  animation : move 3s linear infinite;
+}
+@keyframes move{
+  0%{
+    -ms-transform: rotate(3deg); /* IE 9 */
+  transform: rotate(3deg);
+  }
+   50%{
+   -ms-transform: rotate(-3deg); /* IE 9 */
+  transform: rotate(-3deg);
+  }
+  100%{
+  	-ms-transform: rotate(3deg); /* IE 9 */
+  transform: rotate(3deg);
+  }
 }
 #linkpotrait{
-background: #f1f1f1;
+background: #00000000;
 width: 38%;
 padding-left :10px;
+
 }
 #linkdiscription{
-	background: #f1f1f1;
+	background: #00000000;
 	width: 58%;
 	padding-left :10px;
+	color: green;
+	
 
+}
+#linkpotrait label{
+background: #f1f1f1;
+color: black;
+}
+#linkdiscription label{
+background: #f1f1f1;
+color: black;
 }
 @media screen and (max-width: 800px){
 	#linkholder{
-background: #f1f1f1;
 padding: 10px;
 display: block;
+width: 98%;
+margin-left: 1%;
 }
 	#linkpotrait{
-background: #f1f1f1;
+background: #00000000;
 width: 98%;
 padding-left :10px;
 }
 #linkdiscription{
-	background: #f1f1f1;
+	background: #00000000;
 	width: 98%;
 	padding-left :10px;
 
