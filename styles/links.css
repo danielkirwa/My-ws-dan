@@ -1,34 +1,39 @@
 #linkholder{
-	border-bottom-style: double;
 padding: 10px;
-display: flex;
-width: 60%;
+display: block;
+width: 25%;
 margin-left: 20%;
-  animation : move 3s linear infinite;
+box-shadow: 0 0 10px grey;
+  
 }
-@keyframes move{
+/*@keyframes move{
   0%{
-    -ms-transform: rotate(3deg); /* IE 9 */
+    -ms-transform: rotate(3deg); 
   transform: rotate(3deg);
   }
    50%{
-   -ms-transform: rotate(-3deg); /* IE 9 */
+   -ms-transform: rotate(-3deg); 
   transform: rotate(-3deg);
   }
   100%{
-  	-ms-transform: rotate(3deg); /* IE 9 */
+  	-ms-transform: rotate(3deg); 
   transform: rotate(3deg);
   }
+}*/
+
+#mainlink{
+	width: 100%;
+	display: flex;
 }
 #linkpotrait{
 background: #00000000;
-width: 38%;
+width: 100%%;
 padding-left :10px;
 
 }
 #linkdiscription{
 	background: #00000000;
-	width: 58%;
+	width: 100%;
 	padding-left :10px;
 	color: green;
 	

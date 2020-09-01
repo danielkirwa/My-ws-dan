@@ -1,0 +1,21 @@
+#largecards{
+	padding: 10px;
+	width: 65%;
+	margin-left: 17%;
+	box-shadow: 0 0 10px  grey;
+}
+@media (max-width: 800px){
+
+#largecards{
+	padding: 10px;
+	width: 98%;
+	margin-left: 0%;
+	box-shadow: 0 0 10px  grey;
+}
+}
+a{
+  color: blue;
+}
+a:visited {
+  color: purple;
+}
