@@ -1,9 +1,9 @@
 #linkholder{
 padding: 10px;
 display: block;
-width: 25%;
-margin-left: 20%;
-box-shadow: 0 0 10px grey;
+width: 50%;
+margin-left: 2%;
+box-shadow: 0 0 10px white;
   
 }
 /*@keyframes move{
@@ -48,10 +48,14 @@ background: #f1f1f1;
 color: black;
 }
 @media screen and (max-width: 800px){
+	#mainlink{
+	width: 100%;
+	display: block;
+}
 	#linkholder{
 padding: 10px;
 display: block;
-width: 98%;
+width: 97%;
 margin-left: 1%;
 }
 	#linkpotrait{
