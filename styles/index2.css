@@ -8,6 +8,7 @@
 	width: 60%;
 	margin-left: 5%;
 	box-shadow: 0 0 10px  grey;
+	border-radius: 20px;
 	
 }
 #smallcards p{
@@ -31,6 +32,7 @@
 	width: 25%;
 	margin-left: 5%;
 	box-shadow: 0 0 10px  grey;
+	border-radius: 20px;
 }
 #largecards p{
 	font-size: 24px;
@@ -38,46 +40,52 @@
 	
 }
 #largecards label{
-	color: black;
-	font-size: 26px;
-	font-style: bold;
+	color:  #3d3d3d;
+	font-size: 22px;
+	font-style: italic;
 	
 }
-/* myplace */
+#navbar-right label{
+	font-size: 20px;
+	margin-right: 20px;
+}
 
-ul, #myplace{
-	list-style-type: none;
-	color: saddlebrown;
+/*portfolio design*/
+.submenu{
+	display: flex;
+	padding: 12px 8px;
+
 }
-#myplace{
-	margin: 0;
-	padding: 0;
+ .submenu-menu{
+
+	background:white;
+	margin-left: 40%;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	
 }
-.ceret{
-	cursor: pointer;
-	user-select: none;
+.submenu-menu a{
+
+	padding: 12px 15px;
+	color: black;
+
+	
 }
-.caret::before {
-  content: "\25B6";
-  color: black;
-  display: inline-block;
-  margin-right: 6px;
+.submenu-menu img{
+	padding-right: 3px;
+	margin-top: 3px;
 }
-.caret-down::before {
-  transform: rotate(90deg);
+.resumecontent{
+	background:white;
 }
-.nested {
-  display: none;
-}
-.active {
-  display: block;
-}
+
+
 
 
 
 @media (max-width: 800px){
 	#content2{
-  	margin-top:330px;
+  	margin-top:130px;
   	padding:15px 15px;
   	display: block;
   }
