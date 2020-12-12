@@ -52,34 +52,41 @@
 
 /*portfolio design*/
 .submenu{
-	display: flex;
+	background: #00000000;
+	padding: 5px;
+	height: 100px;
+}
+
+.submenu-menu{
+	background: #fff;
+	padding: 15px 8px;
+	overflow: hidden;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	width: 50%;
+	margin-left: 30%;
+	margin-top: -6%;
+	opacity: 0;
+
+}
+.submenu-menu a {
+	background: white;
 	padding: 12px 8px;
 
 }
- .submenu-menu{
+.btnmenu{
+	cursor: pointer;
+	margin-left: 90%;
 
-	background:white;
-	margin-left: 40%;
-	border-bottom-left-radius: 20px;
-	border-top-left-radius: 20px;
-	
 }
-.submenu-menu a{
-
-	padding: 12px 15px;
-	color: black;
-
-	
-}
-.submenu-menu img{
-	padding-right: 3px;
-	margin-top: 3px;
+/* resume and portfolio */
+.Portfolio{
+	background: green;
 }
 .resumecontent{
-	background:white;
+	display: none;
+	color: blue;
 }
-
-
 
 
 
@@ -101,6 +108,12 @@
 	margin-left: 0%;
 	box-shadow: 0 0 10px  grey;
 }
+.btnmenu{
+	cursor: pointer;
+	margin-left: 90%;
+
+}
+
 }
 a{
   color: blue;
