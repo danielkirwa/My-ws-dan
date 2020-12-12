@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My_ws-dan</title>
+	<link rel="stylesheet" type="text/css" href="styles/index2.css">
+	<link rel="stylesheet" type="text/css" href="styles/banner.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div id="navbar">
+  <a href="#default" id="logo"><img src="images/profile.jpg" alt="org logo" width="40px" style="border-radius: 50%"></a>
+  <div id="navbar-right">
+  	<a class="active" href="#">Home</a>
+    <a href="Projects.html">Projects</a>
+    <a href="Events.html">Events</a>
+    <a href="Links.html">Link</a>
+  </div>
+</div>
+<div id="content2">
+	<div id="largecards" style="background-image: url(images/background7.png); background-size: cover;">
+	
+	 <center>
+	 <img src="images/profile.jpg" alt="org logo" width="60%" style="border-radius: 30%">
+	 </center>
+
+	 <center>
+	 	<label>Name :</label><br><hr>
+	 	<label>Location :</label><br><hr>
+	 	<label>Email :</label><br><hr>
+	 	<label>Currently :</label><br><hr>
+	 </center>
+
+	</div><br>
+
+	<div id="smallcards" style="background-image: url(images/background8.png); background-size: cover;">
+		<center><label style="font-size: 24px;text-shadow: 0 0 5px;">Bio</label></center><br>
+		<p>
+			<b>My location:</b><br>
+
+			<ul id="myplace">
+				<li><span class="caret">Africa</span>
+					<ul class="nested">
+						<li>Central Africa</li>
+						<li>Souther Africa</li>
+				<li><span class="caret">Eastern Africa</span>
+					<ul class="nested">
+						<li>Uganda</li>
+						<li>Tanzania</li>
+
+				<li><span class="caret">Kenya</span>
+					<ul class="nested">
+						<li>Rift-vale</li>
+						<li>Eldoret</li>
+					</ul>
+
+				</li>
+				</ul>
+				</li>
+				</ul>
+				</li>
+
+			</ul>
+
+
+			<br>
+			My studies records 
+			<ol>
+					<li>Moi Barracks primary</li>
+					<li>Paul Boit High School</li>
+					<li>Kibabii University</li>
+				</ol> 
+			I am a software developer and I begun it in the year 2017. My  Area of Specialization is : 
+				<ol>
+					<li>Android development</li>
+					<li>Web development</li>
+					<li>Desktop application (JAVA)</li>
+				</ol> 
+		</p>
+
+	</div><br>
+	
+
+
+
+</div>
+
+</div>
+<div id="moveup">
+	<center><div id="up"><a> <img src="images/moveup.png" id="up" onclick="topFunction()"> </a></div></center>
+	
+</div> 
+<div id="footer">
+		
+		<center>
+	<label style="font-size: 24px">Best Quote</label>
+	<p>If you think you don't know then go out there and see how skill full you are<br> and if you think know go out there and
+	you meet experts !!!</p> <br>
+<center>
+	<label style="font-size: 24px">Reach us ...</label><br><br>
+	
+<table>
+			<tr>
+				<td><a><img src="images/phone.png" width="24px"></a></td>
+				<td>0791958878</td>
+			</tr>
+			<tr>
+				<td><a><img src="images/phone.png" width="24px"></a></td>
+				<td>0738161992</td>
+			</tr>
+</table>
+	</center>
+</center>
+	<hr>
+	<center>
+	<center>
+		<label><b>Go online</b></label><br>
+
+		<table>
+			<tr>
+				<td><a href="mailto:kirwadan03@gmail.com?subject=My reach out!" style="color: black"><img src="images/Gmail.png" width="24px"> </a></td>
+				<td><a href="#">Email</a></td>
+			</tr>
+			<tr>
+				<td><a href="#" style="color: black"><img src="images/twitter.png" width="24px"></a></td>
+				<td><a href="#">Twitter</a></td>
+			</tr>
+			<tr>
+				<td><a href="#" style="color: black"><img src="images/skype.png" width="24px"></a></td>
+				<td><a href="#">Skype</a></td>
+			</tr>
+			<tr>
+				<td><a href="#" style="color: black"><img src="images/linkedin.png" width="24px"></a></td>
+				<td><a href="#">Linkedin</a></td>
+			</tr>
+			<tr>
+				<td><a href="#" style="color: black"><img src="images/facebook.png" width="24px"></a></td>
+				<td><a href="#">Facebook</a></td>
+			</tr>
+	
+	</table>
+	<p>
+		&copy; 2020-2020  &trade; &nbsp;&nbsp; <a href="https://my-ws-dan.herokuapp.com/Home.html">my-ws-dan.com</a>    
+	</p>
+	</center>
+	</center>
+	</div>
+
+	<!-- body end start of scripts -->
+<script type="text/javascript" src="scripts/home.js"></script>
+<script type="text/javascript">
+
+
+var toggler = document.getElementsByClassName("caret");
+var i;
+
+for (i = 0; i < toggler.length; i++) {
+  toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+    this.classList.toggle("caret-down");
+  });
+}
+
+	</script>
+</body>
+</html>
