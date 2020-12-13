@@ -83,7 +83,6 @@
 }
 .resumecontent{
 	display: none;
-	color: blue;
 }
 
 /* content for portfiloi */
@@ -106,6 +105,85 @@
 	background: white;
 	border-radius: 12px;
 	padding: 2%;
+}
+/* rating styling */
+.myresumerating{
+	width: 90%;
+	padding:1%;
+	background: white;
+	margin-left: 4%;
+}
+.myrate{
+	background: #f1f1f1;
+	border-radius: 10px;
+	padding:3px;
+}
+#ratingtable th{
+	background-color: purple ;
+	padding: 10px 8px;
+	color: white;
+}
+.ratescorehead{
+	width: 90%;
+}
+#ratetrack{
+	background: white;
+	width: 100%;
+	height: 20px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding-top: 10px;
+}
+/* rate score given*/
+/* 85 #228b22 ,70 #57e32c, 60 #ffe234 ,50 #ffa534*/
+#javaratetrain{
+	background: #228b22;
+	width: 90%;
+	height: 10px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#htmlratetrain{
+	background: #57e32c;
+	width: 85%;
+	height: 10px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#cssratetrain{
+	background: #b7dd29;
+	width: 83%;
+	height: 10px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#uxratetrain{
+	background: #b7dd29;
+	width: 72%;
+	height: 10px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#javascriptratetrain{
+	background: #ffe234;
+	width: 60%;
+	height: 10px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#gitratetrain{
+	background: #ffe234;
+	width: 59%;
+	height: 10px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#laravelratetrain{
+	background:  	#ffa534;
+	width: 40%;
+	height: 10px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 
