@@ -45,13 +45,16 @@ btnmenushow.addEventListener( 'click', () =>{
   checkmenucode = parseInt(checkmenucode);
  if(checkmenucode == 1){
   document.querySelector('.submenu-menu').style.opacity = "0";
+  document.querySelector('.submenu-menu').style.pointerEvents = "none";
   localStorage.setItem('showmenu', 0);
 }else if(checkmenucode == 0){
    document.querySelector('.submenu-menu').style.opacity = "1";
+   document.querySelector('.submenu-menu').style.pointerEvents = "auto";
    localStorage.setItem('showmenu', 1);
 }else{
   localStorage.setItem('showmenu', 1);
   document.querySelector('.submenu-menu').style.opacity = "1";
+  document.querySelector('.submenu-menu').style.pointerEvents = "auto";
 }
 
 
@@ -64,6 +67,7 @@ if(callportfolio == null){
 }else{
   callportfolio.addEventListener('click', () =>{
   document.querySelector('.Portfolio').style.display = "block";
+  document.querySelector('.selectedtab').innerHTML = "Portfolio";
   document.querySelector('.resumecontent').style.display = "none";
   localStorage.setItem('displaycontent', 1);
 })
@@ -75,6 +79,7 @@ if (callresume == null) {
 callresume.addEventListener('click', () =>{
   document.querySelector('.Portfolio').style.display = "none";
   document.querySelector('.resumecontent').style.display = "block";
+  document.querySelector('.selectedtab').innerHTML = "Resume";
   localStorage.setItem('displaycontent', 2);
 })
 }
@@ -88,8 +93,10 @@ function keepsubmenu() {
    let checkmenucode = localStorage.getItem('showmenu'); 
    if (checkmenucode == 1) {
      document.querySelector('.submenu-menu').style.opacity = "1";
+     document.querySelector('.submenu-menu').style.pointerEvents = "auto";
    }else if(checkmenucode == 0){
     document.querySelector('.submenu-menu').style.opacity = "0";
+    document.querySelector('.submenu-menu').style.pointerEvents = "none";
   }else{
 
   }
@@ -102,12 +109,15 @@ function keepcontent() {
    if (checkcontent == 1) {
     document.querySelector('.Portfolio').style.display = "block";
   document.querySelector('.resumecontent').style.display = "none";
+  document.querySelector('.selectedtab').innerHTML = "Portfolio";
    }else if(checkcontent == 2){
      document.querySelector('.Portfolio').style.display = "none";
   document.querySelector('.resumecontent').style.display = "block";
+  document.querySelector('.selectedtab').innerHTML = "Resume";
   }else{
     localStorage.setItem('displaycontent', 1);
     document.querySelector('.Portfolio').style.display = "block";
+    document.querySelector('.selectedtab').innerHTML = "Portfolio";
   document.querySelector('.resumecontent').style.display = "none";
   }
 
