@@ -11,22 +11,18 @@
 	border-radius: 20px;
 	
 }
-#smallcards p{
+#mytag{
+	color: black;
 	font-size: 24px;
+	font-weight: bold;
+}
+
+#smallcards p{
+	font-size: 18px;
 	font-style: italic;
 	
 }
-#smallcards label{
-	color: white;
-	font-size: 26px;
-	font-style: bold;
-	
-}
-#smallcards li{
-	font-size: 24px;
-	font-style: bold;
-	
-}
+
 #largecards{
 	padding: 10px;
 	width: 25%;
@@ -82,11 +78,34 @@
 }
 /* resume and portfolio */
 .Portfolio{
-	background: green;
+	padding: 1%;
+	background: #00000000;
 }
 .resumecontent{
 	display: none;
 	color: blue;
+}
+
+/* content for portfiloi */
+.mydiscriptioncontent{
+	display: flex;
+	padding: 1%;
+	background: #f1f1f1;
+}
+.mycontent1{
+	width: 40%;
+	margin-left: 5%;
+	background: white;
+	border-radius: 12px;
+	padding: 2%;
+
+}
+.mycontent2{
+	width: 40%;
+	margin-left: 5%;
+	background: white;
+	border-radius: 12px;
+	padding: 2%;
 }
 
 
@@ -118,6 +137,22 @@
 	background: white;
 	padding: 2px 1px;
 
+}
+.mydiscriptioncontent{
+	display: block;
+	padding: 1%;
+	background: #f1f1f1;
+}
+.mycontent1{
+	width: 90%;
+	margin-left: 5%;
+	background: white;
+
+}
+.mycontent2{
+	width: 90%;
+	margin-left: 5%;
+	background: white;
 }
 
 }
