@@ -3,7 +3,7 @@ body{
 }
 .scrolldown{
 	position: absolute;
-	bottom: 5px;
+	bottom: 2px;
 	left: 50%;
 	height: 40px;
 	width: 40px;
@@ -309,7 +309,7 @@ body{
 #content1 p{
 	font-size: 18px;
 	font-weight: bold;
-	width: 70%;
+	width: 90%;
 	color: white;
   }
 
