@@ -141,7 +141,7 @@ let letter = '';
     count++;
     index = 0;
   }
-  setTimeout(typing , 600);
+  setTimeout(typing , 400);
 
 }());
 
