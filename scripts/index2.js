@@ -20,7 +20,7 @@ function topFunction() {
   const c = document.documentElement.scrollTop || document.body.scrollTop;
   if (c > 0) {
     window.requestAnimationFrame(scrollToTop);
-    window.scrollTo(0, c - c / 30);
+    window.scrollTo(0, c - c / 6);
   }
 };
 
@@ -124,7 +124,7 @@ function keepcontent() {
 }
 
 // animate typing effect
-const texts = ['Web Developer','Android Developer'];
+const texts = ['Web Developer  ','Android Developer  '];
 let count = 0;
 let index = 0;
 let currentText = '';

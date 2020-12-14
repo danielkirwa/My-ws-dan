@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body{
 	background: #3b3b3b ;
 }
@@ -70,7 +73,7 @@ body{
 	width: 50%;
 	color: white;
   }
-  #content1 h2{
+  #content1 h3{
 	font-weight: bold;
 	color: #062a78;
   }
@@ -125,7 +128,7 @@ body{
 }
 
 .submenu-menu{
-	background: #fff;
+	background: #bebebe;
 	padding: 15px 8px;
 	overflow: hidden;
 	border-top-left-radius: 20px;
@@ -138,7 +141,7 @@ body{
 
 }
 .submenu-menu a {
-	background: white;
+	background: #bebebe;
 	padding: 12px 8px;
 
 }
@@ -160,12 +163,12 @@ body{
 .mydiscriptioncontent{
 	display: flex;
 	padding: 1%;
-	background: #f1f1f1;
+	background: #4f4f4f ;
 }
 .mycontent1{
 	width: 40%;
 	margin-left: 5%;
-	background: white;
+	background: #bebebe;
 	border-radius: 12px;
 	padding: 2%;
 
@@ -173,7 +176,7 @@ body{
 .mycontent2{
 	width: 40%;
 	margin-left: 5%;
-	background: white;
+	background: #bebebe;
 	border-radius: 12px;
 	padding: 2%;
 }
@@ -181,11 +184,11 @@ body{
 .myresumerating{
 	width: 90%;
 	padding:1%;
-	background: white;
+	background: #4f4f4f ;
 	margin-left: 4%;
 }
 .myrate{
-	background: #f1f1f1;
+	background: #bebebe;
 	border-radius: 10px;
 	padding:3px;
 }
@@ -258,6 +261,29 @@ body{
 }
 
 
+.icon {
+  padding: 10px;
+  background: #bebebe;
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+}
+.icon:hover{
+	animation: rotate 1s linear;
+}
+@keyframes rotate{
+	0%{
+		transform: rotate(0deg);
+	}
+	50%{
+		transform: rotate(180deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+
 
 @media (max-width: 800px){
 	#content2{
@@ -286,25 +312,25 @@ body{
 
 }
 .submenu-menu a {
-	background: white;
+	background: #bebebe;
 	padding: 2px 1px;
 
 }
 .mydiscriptioncontent{
 	display: block;
 	padding: 1%;
-	background: #f1f1f1;
+	background: #4f4f4f;
 }
 .mycontent1{
 	width: 90%;
 	margin-left: 5%;
-	background: white;
+	background: #bebebe;
 
 }
 .mycontent2{
 	width: 90%;
 	margin-left: 5%;
-	background: white;
+	background: #bebebe;
 }
 #content1 p{
 	font-size: 18px;
