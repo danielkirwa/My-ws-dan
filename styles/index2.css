@@ -206,67 +206,81 @@ body{
 	height: 20px;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
-	padding-top: 10px;
+	border-width: 2px solid pink;
 }
 /* rate score given*/
 /* 85 #228b22 ,70 #57e32c, 60 #ffe234 ,50 #ffa534*/
 #javaratetrain{
 	background: #228b22;
 	width: 90%;
-	height: 10px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+	height: 100%;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 #htmlratetrain{
 	background: #57e32c;
 	width: 85%;
-	height: 10px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+	height: 100%;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 #cssratetrain{
 	background: #b7dd29;
 	width: 83%;
-	height: 10px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+	height: 100%;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 #uxratetrain{
 	background: #b7dd29;
 	width: 72%;
-	height: 10px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+	height: 100%;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 #javascriptratetrain{
 	background: #ffe234;
 	width: 60%;
-	height: 10px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+	height: 100%;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 #gitratetrain{
 	background: #ffe234;
 	width: 59%;
-	height: 10px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+	height: 100%;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 #laravelratetrain{
 	background:  	#ffa534;
 	width: 40%;
-	height: 10px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+	height: 100%;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 
-
+/* iocns */
 .icon {
   padding: 10px;
   background: #bebebe;
   color: white;
   text-align: center;
   border-radius: 25px;
+}
+.icons {
+  padding: 10px;
+  background: #bebebe;
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+}
+.iconz {
+  padding: 5px;
+  background: #bebebe;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
 }
 .icon:hover{
 	animation: rotate 1s linear;
