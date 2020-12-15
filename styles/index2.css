@@ -177,14 +177,26 @@ body{
 	width: 40%;
 	margin-left: 5%;
 	background: #bebebe;
+
 	border-radius: 12px;
 	padding: 2%;
+}
+.mycontent2 img{
+  opacity: 0.5;
+}
+.mycontent1 img{
+opacity: 0.5;
+}
+.mycontent2 img:hover{
+  opacity: 0.9;
+}
+.mycontent1 img:hover{
+opacity: 0.9;
 }
 /* rating styling */
 .myresumerating{
 	width: 90%;
 	padding:1%;
-	background: #4f4f4f ;
 	margin-left: 4%;
 	color: black;
 }
@@ -194,7 +206,7 @@ body{
 	padding:3px;
 }
 #ratingtable th{
-	background-color: #3b3b3b ;
+	background-color: #051818 ;
 	padding: 10px 8px;
 	color: white;
 }
@@ -213,6 +225,7 @@ body{
 /* 85 #228b22 ,70 #57e32c, 60 #ffe234 ,50 #ffa534*/
 #javaratetrain{
 	background: #228b22;
+	background-image: linear-gradient(to right, #fff , #228b22);
 	width: 90%;
 	height: 100%;
 	border-top-right-radius: 15px;
@@ -220,6 +233,7 @@ body{
 }
 #htmlratetrain{
 	background: #57e32c;
+	background-image: linear-gradient(to right, #fff , #57e32c);
 	width: 85%;
 	height: 100%;
 	border-top-right-radius: 15px;
@@ -227,6 +241,7 @@ body{
 }
 #cssratetrain{
 	background: #b7dd29;
+	background-image: linear-gradient(to right, #fff , #b7dd29);
 	width: 83%;
 	height: 100%;
 	border-top-right-radius: 15px;
@@ -234,6 +249,7 @@ body{
 }
 #uxratetrain{
 	background: #b7dd29;
+	background-image: linear-gradient(to right, #fff , #b7dd29);
 	width: 72%;
 	height: 100%;
 	border-top-right-radius: 15px;
@@ -241,6 +257,7 @@ body{
 }
 #javascriptratetrain{
 	background: #ffe234;
+	background-image: linear-gradient(to right, #fff , #ffe234);
 	width: 60%;
 	height: 100%;
 	border-top-right-radius: 15px;
@@ -248,6 +265,7 @@ body{
 }
 #gitratetrain{
 	background: #ffe234;
+	background-image: linear-gradient(to right, #fff , #ffe234);
 	width: 59%;
 	height: 100%;
 	border-top-right-radius: 15px;
@@ -255,6 +273,7 @@ body{
 }
 #laravelratetrain{
 	background:  	#ffa534;
+	background-image: linear-gradient(to right, #fff , #ffa534);
 	width: 40%;
 	height: 100%;
 	border-top-right-radius: 15px;
