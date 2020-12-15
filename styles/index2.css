@@ -75,7 +75,7 @@ body{
   }
   #content1 h3{
 	font-weight: bold;
-	color: #062a78;
+	color: #00bfff;
   }
 #smallcards{
 	padding: 10px;
@@ -128,7 +128,7 @@ body{
 }
 
 .submenu-menu{
-	background: #bebebe;
+	background: #051818;
 	padding: 15px 8px;
 	overflow: hidden;
 	border-top-left-radius: 20px;
@@ -141,7 +141,7 @@ body{
 
 }
 .submenu-menu a {
-	background: #bebebe;
+	background: #051818;
 	padding: 12px 8px;
 
 }
@@ -157,13 +157,13 @@ body{
 }
 .resumecontent{
 	display: none;
+	color: white;
 }
 
 /* content for portfiloi */
 .mydiscriptioncontent{
 	display: flex;
 	padding: 1%;
-	background: #4f4f4f ;
 }
 .mycontent1{
 	width: 40%;
@@ -186,6 +186,7 @@ body{
 	padding:1%;
 	background: #4f4f4f ;
 	margin-left: 4%;
+	color: black;
 }
 .myrate{
 	background: #bebebe;
@@ -193,7 +194,7 @@ body{
 	padding:3px;
 }
 #ratingtable th{
-	background-color: purple ;
+	background-color: #3b3b3b ;
 	padding: 10px 8px;
 	color: white;
 }
@@ -201,12 +202,12 @@ body{
 	width: 90%;
 }
 #ratetrack{
-	background: white;
+	background: #f1f1f1;
 	width: 100%;
 	height: 20px;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
-	border-width: 2px solid pink;
+	border: 2px solid black;
 }
 /* rate score given*/
 /* 85 #228b22 ,70 #57e32c, 60 #ffe234 ,50 #ffa534*/
@@ -326,14 +327,13 @@ body{
 
 }
 .submenu-menu a {
-	background: #bebebe;
+	background: #051818;
 	padding: 2px 1px;
 
 }
 .mydiscriptioncontent{
 	display: block;
 	padding: 1%;
-	background: #4f4f4f;
 }
 .mycontent1{
 	width: 90%;
@@ -355,8 +355,8 @@ body{
 
 }
 a{
-  color: blue;
+  color: #00bfff;
 }
 a:visited {
-  color: purple;
+  color: #f500f5;
 }
