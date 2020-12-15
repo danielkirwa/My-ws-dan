@@ -145,10 +145,19 @@ let letter = '';
 
 }());
 
+function getdate() {
+  // body...
+  let date = new Date();
+  var thisyear = date.getFullYear();
+  let displayyear = document.querySelector('.currentyear');
+  displayyear.innerHTML = thisyear;
+}
+
 
 
  keepcontent();
 keepsubmenu();
+getdate();
 
 
 
