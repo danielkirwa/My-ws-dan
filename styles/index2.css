@@ -321,6 +321,7 @@ opacity: 0.9;
 	position: absolute;
 	width: 150px;
 	left: 40%;
+	top: 40%;
 }
 .holder:before{
 	background: #242124; 
@@ -328,6 +329,7 @@ opacity: 0.9;
 	background: radial-gradient(to bottom left, #242124,  	#000014 );
 	background: -webkit-radial-gradient(top right , #242124,  	#000014  );
 	z-index: -1;
+
 }
 .holder:after{
 	animation-delay: 2.5s;
@@ -336,7 +338,7 @@ opacity: 0.9;
 	background: radial-gradient(to top left, #242124,  	#000014 );
 	background: -webkit-radial-gradient(bottom right , #242124,  	#000014  );
 	right: 50;
-	top: 0;
+	top: 50;
 	z-index: -1;
 }
 .card{
