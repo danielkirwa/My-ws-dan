@@ -1,6 +1,26 @@
 /*html {
   scroll-behavior: smooth;
 }*/
+
+
+ /*glass effect */
+
+ .glassbox{
+ 	position: relative;
+ 	box-shadow: 0 5px 15px rgba(0,0,0,5);
+ 	width: 70%;
+ 	margin-left: 15%;
+ }
+ .glassbox:before{
+ 	content: '';
+ 	position: absolute;
+ 	top: -20px;
+ 	bottom: -20px;
+ 	left: -20px;
+ 	right: -20px;
+ 	background-image: url(images/techbackground3.jpg);
+ 	filter: blur(4px);
+ }
 body{
 	background: #3b3b3b ;
 }
@@ -399,6 +419,11 @@ opacity: 0.9;
 
 
 @media (max-width: 800px){
+
+	 .glassbox{
+	 	width: 95%;
+	 	margin-left: 2.5%
+	 }
 	#content2{
   	padding:15px 15px;
   	display: block;
