@@ -124,7 +124,7 @@ function keepcontent() {
 }
 
 // animate typing effect
-const texts = ['Web Developer  ','Android Developer  '];
+const texts = ['a Web Developer  ','an Android Developer  '];
 let count = 0;
 let index = 0;
 let currentText = '';
