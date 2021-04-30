@@ -193,10 +193,35 @@ if (btnsubmit == null) {
       let message = document.getElementById('feedbackmessage').value;
    let subject = document.getElementById('feedbacksubject').value;
     let email = document.getElementById('feedbackemail').value;
-    console.log(subject , message , email);
-    // 
-    
 
+    let feedbackid = Date.now() / 1000 | 0
+    // validate input 
+    if (subject == "") {
+      document.getElementById('feedbacksubject').style.border = "1px solid red";
+    }else{
+      if (message == "") {
+        document.getElementById('feedbackmessage').style.border = "1px solid red";
+      }else{
+         firebase.database().ref('MywebApageFeedback/' + feedbackid).set({
+      Subject : subject,
+      Message : message,
+      Email : email,
+      FeebackId : feedbackid
+    }, (error) =>{
+      if (error) {
+        alert('Failed to send try again');
+      }else{
+        alert('Successfully send');
+        document.getElementById('feedbackmessage').innerHTML = "";
+        document.getElementById('feedbacksubject').innerHTML = "";
+        document.getElementById('feedbackemail').innerHTML = "";
+      }
+    })
+
+      }
+    }
+    
+   
   })
 
 }
