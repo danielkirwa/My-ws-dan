@@ -68,6 +68,7 @@ if(callportfolio == null){
   callportfolio.addEventListener('click', () =>{
   document.querySelector('.Portfolio').style.display = "block";
   document.querySelector('.selectedtab').innerHTML = "Portfolio";
+  document.querySelector('.Feedback').style.display = "none";
   document.querySelector('.resumecontent').style.display = "none";
   localStorage.setItem('displaycontent', 1);
 })
@@ -78,9 +79,23 @@ if (callresume == null) {
 }else{
 callresume.addEventListener('click', () =>{
   document.querySelector('.Portfolio').style.display = "none";
+  document.querySelector('.Feedback').style.display = "none";
   document.querySelector('.resumecontent').style.display = "block";
   document.querySelector('.selectedtab').innerHTML = "Resume";
   localStorage.setItem('displaycontent', 2);
+})
+}
+
+let callfeedback = document.querySelector('.slidemenuf');
+if (callfeedback == null) {
+
+}else{
+callfeedback.addEventListener('click', () =>{
+  document.querySelector('.Portfolio').style.display = "none";
+  document.querySelector('.resumecontent').style.display = "none";
+  document.querySelector('.Feedback').style.display = "block";
+  document.querySelector('.selectedtab').innerHTML = "Feedback";
+  localStorage.setItem('displaycontent', 3);
 })
 }
 
@@ -107,18 +122,27 @@ function keepcontent() {
   // body...
    let checkcontent = localStorage.getItem('displaycontent'); 
    if (checkcontent == 1) {
-    document.querySelector('.Portfolio').style.display = "block";
+    document.querySelector('.Feedback').style.display = "none";
   document.querySelector('.resumecontent').style.display = "none";
+  document.querySelector('.Portfolio').style.display = "block";
   document.querySelector('.selectedtab').innerHTML = "Portfolio";
    }else if(checkcontent == 2){
      document.querySelector('.Portfolio').style.display = "none";
+     document.querySelector('.Feedback').style.display = "none";
   document.querySelector('.resumecontent').style.display = "block";
   document.querySelector('.selectedtab').innerHTML = "Resume";
+  }else if(checkcontent == 3){
+    document.querySelector('.Portfolio').style.display = "none";
+  document.querySelector('.resumecontent').style.display = "none";
+  document.querySelector('.Feedback').style.display = "block";
+    document.querySelector('.selectedtab').innerHTML = "Feedback";
+
   }else{
     localStorage.setItem('displaycontent', 1);
-    document.querySelector('.Portfolio').style.display = "block";
-    document.querySelector('.selectedtab').innerHTML = "Portfolio";
   document.querySelector('.resumecontent').style.display = "none";
+   document.querySelector('.Feedback').style.display = "none";
+   document.querySelector('.Portfolio').style.display = "block";
+    document.querySelector('.selectedtab').innerHTML = "Portfolio";
   }
 
 }
@@ -154,13 +178,27 @@ function getdate() {
 }
 
 
-
-
-
  keepcontent();
 keepsubmenu();
 getdate();
 
 
+// feedback content
+
+let btnsubmit = document.getElementById('btnsubmitfeedback');
+if (btnsubmit == null) {
+
+}else{
+  btnsubmit.addEventListener('click' , () =>{
+      let message = document.getElementById('feedbackmessage').value;
+   let subject = document.getElementById('feedbacksubject').value;
+    let email = document.getElementById('feedbackemail').value;
+    console.log(subject , message , email);
+    // 
+    
+
+  })
+
+}
 
 

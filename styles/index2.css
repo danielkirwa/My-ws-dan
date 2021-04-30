@@ -417,6 +417,42 @@ opacity: 0.9;
 }
 
 
+/* feedback page**/
+fieldset label{
+	font-size: 20px;
+}
+fieldset input[type=text] ,input[type=email] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-color: blue;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+fieldset textarea{
+  width: 80%;
+  padding: 12px 2px;
+  margin: 8px 0;
+  border-color: blue;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  min-height: 150px;
+}
+fieldset button{
+  background:  #051818;
+  width: 80%;
+  padding: 12px 2px;
+  margin: 8px 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+}
 
 @media (max-width: 800px){
 
