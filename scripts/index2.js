@@ -202,7 +202,7 @@ if (btnsubmit == null) {
       if (message == "") {
         document.getElementById('feedbackmessage').style.border = "1px solid red";
       }else{
-         firebase.database().ref('MywebApageFeedback/' + feedbackid).set({
+         firebase.database().ref('MywebPageFeedback/' + feedbackid).set({
       Subject : subject,
       Message : message,
       Email : email,
