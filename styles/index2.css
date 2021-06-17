@@ -83,7 +83,6 @@ body{
   	background-repeat: no-repeat;
   	background-position: center center;
   	background-position: 100% 50;
-  	margin-top:140px;
   	padding:15px 15px;
   	height: 80vh;
   }
@@ -176,7 +175,6 @@ body{
 	background: #00000000;
 }
 .resumecontent{
-	display: none;
 	color: white;
 }
 
@@ -465,7 +463,6 @@ fieldset button{
   	display: block;
   }
   	#content1{
-  	margin-top:140px;
   	padding:15px 15px;
   }
 	#smallcards{

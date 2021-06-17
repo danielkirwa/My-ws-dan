@@ -9,6 +9,7 @@
 
 
 	<title>Daniel kipchirchir</title>
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
 	<link rel="stylesheet" type="text/css" href="styles/index2.css">
 	<link rel="stylesheet" type="text/css" href="styles/banner.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,15 +17,25 @@
 
 </head>
 <body style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) #9e8e81 ">
-
-<div id="navbar" style="background: #051818 ">
+<!-- <div id="navbar" style="background: #051818 ">
   <a href="#default" id="logo"><img src="images/profile.jpg" alt="avater" width="40px" style="border-radius: 40%"></a>
   <div id="navbar-right">
   <label style="color: white">Daniel Kipchirchir</label>
   </div>
 </div>
-<!-- background image start -->
-<div id="content1" style="background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/techbackground3.jpg);background-size: cover;">
+ -->
+
+    <div class="parent-element">
+    	 <section class="section-home snapsection">
+
+    	 	<div id="navbar" style="background: #051818 ">
+  <a href="#default" id="logo"><img src="images/profile.jpg" alt="avater" width="40px" style="border-radius: 40%"></a>
+  <div id="navbar-right">
+  <label style="color: white">Daniel Kipchirchir</label>
+  </div>
+</div>
+
+    	  <div id="content1" style="background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/techbackground3.jpg);background-size: cover;">
 	<div class="glassbox">
 		<center>
 		<br>
@@ -38,15 +49,15 @@
 	<br>
 	</div>
 	
-	<a href="index.html#largecards"><div class="scrolldown">
+	<a href="index.html#section-two"><div class="scrolldown">
 		<span></span>
 		<span></span>
 		<span></span>
 	</div></a>
 </div>
-<!-- end of background -->
-<!-- start of content two -->
-<div id="content2">
+</section>
+    	 <section class="section-infor snapsection" id="section-infor">
+    	 	<div id="content2">
 	<div id="largecards">
 	
 	 <center>
@@ -81,19 +92,24 @@
 	 </center>
 	</div><br>
 
-	<div id="smallcards">
-		<div class="submenu">
-			<label id="mytag">My <span class="selectedtab">Resume</span></label>
-			<span class="btnmenu"><i class="fa fa-bars icons"></i></span>
-			<div class="submenu-menu">
+	
 		
-				<a href="index.html#smallcards" class="slidemenup">Portfolio</a>
-				<a href="index.html#smallcards" class="slidemenur">Resume</a>
-				<a href="index.html#smallcards" class="slidemenuf">Feedback</a>	
-			</div>
-			
-		</div>
-		<div class="resumecontent" id="resumecontent">
+		
+		<!-- More infor -->
+  <div id="smallcards">
+  	 my other infor
+  </div>
+		
+		
+
+		<!-- end of more infor -->
+		
+		
+	</div><br>
+    	 </section>
+    	<section class="section-resume snapsection">
+			<!-- repeat -->
+			<div class="resumecontent" id="resumecontent">
 			<!-- start of resume -->
 			<div class="myresumediscription">
 				<p>
@@ -137,9 +153,52 @@
 				</p>	
 				</section>
 			</div>
-			<!-- end of resume -->
-			<!-- strat of rating -->
-			<div class="myresumerating">
+		</div>
+    	 </section>
+    	 <section class="section-projects snapsection"> 
+        <div class="Portfolio" id="Portfolio">
+			<div class="mydiscription">
+				<p>
+					Hello, my journey and love of tech has drastically increased. The driving power behind is the dynamically fast changing world. Almost everything if not all nowadays relay on Technology "how passionate am I to be part of "
+				</p>
+			</div>
+			<div class="mydiscriptioncontent">
+				<div class="mycontent1">
+					<a href="#"><img src="images/screenshots/ecmmerceshort.jpg" width="100%"></a>
+					<!-- <a href="#">visit</a>&nbsp;&nbsp;-->
+					<label>
+						ecommerce website that facilitated online shopping specificaly for beauty
+					</label>
+				</div><br>
+				<div class="mycontent2">
+					<a href="https://kenyacovid-19tracker.herokuapp.com/Home.html" target="_blank"><img src="images/screenshots/Covid-19trackerhome.jpg" width="100%"></a>
+					<a href="https://kenyacovid-19tracker.herokuapp.com/Home.html" target="_blank">visit</a>&nbsp;&nbsp;
+					<label>
+						Covid-19 update the site specifically for country Kenya it gave update on both infection accumulation and also government directives and preventive measures
+					</label>
+				</div>
+			</div><br>
+			<div class="mydiscriptioncontent">
+				<div class="mycontent1">
+					<a href="https://excellent-tracking.herokuapp.com/Home.html" target="_blank"><img src="images/screenshots/tracktraceshort.jpg" width="100%"></a>
+					<a href="https://excellent-tracking.herokuapp.com/Home.html" target="_blank">visit</a>&nbsp;&nbsp;
+					<label>
+						 An online car  and cargo tracking website for specific company provider
+					</label>
+				</div><br>
+				<div class="mycontent2">
+					<a href="#"><img src="images/screenshots/trainticketshort.jpg" width="100%"></a>
+					<!--<a href="#">visit</a>&nbsp;&nbsp;-->
+					<label>
+						An online train ticket booking platform to aid in time management and synchronize terminal activities
+					</label>
+				</div>
+			</div>
+		</div>
+    	 </section>
+    	 <section class="section-rating snapsection"> 
+
+    	 		<div class="myresumerating">
 				<center><label><strong>My Skills Rating</strong></label></center>
 				<div class="myrate">
 					<table id="ratingtable">
@@ -221,83 +280,9 @@
 					</table>
 				</div>
 			</div>
-<!-- end of rating -->
-		</div>
-		<!-- end of resume -->
-		<!-- start of portfolio -->
-		<div class="Portfolio" id="Portfolio">
-			<div class="mydiscription">
-				<p>
-					Hello, my journey and love of tech has drastically increased. The driving power behind is the dynamically fast changing world. Almost everything if not all nowadays relay on Technology "how passionate am I to be part of "
-				</p>
-			</div>
-			<div class="mydiscriptioncontent">
-				<div class="mycontent1">
-					<a href="#"><img src="images/screenshots/ecmmerceshort.jpg" width="100%"></a>
-					<!-- <a href="#">visit</a>&nbsp;&nbsp;-->
-					<label>
-						ecommerce website that facilitated online shopping specificaly for beauty
-					</label>
-				</div><br>
-				<div class="mycontent2">
-					<a href="https://kenyacovid-19tracker.herokuapp.com/Home.html" target="_blank"><img src="images/screenshots/Covid-19trackerhome.jpg" width="100%"></a>
-					<a href="https://kenyacovid-19tracker.herokuapp.com/Home.html" target="_blank">visit</a>&nbsp;&nbsp;
-					<label>
-						Covid-19 update the site specifically for country Kenya it gave update on both infection accumulation and also government directives and preventive measures
-					</label>
-				</div>
-			</div><br>
-			<div class="mydiscriptioncontent">
-				<div class="mycontent1">
-					<a href="https://excellent-tracking.herokuapp.com/Home.html" target="_blank"><img src="images/screenshots/tracktraceshort.jpg" width="100%"></a>
-					<a href="https://excellent-tracking.herokuapp.com/Home.html" target="_blank">visit</a>&nbsp;&nbsp;
-					<label>
-						 An online car  and cargo tracking website for specific company provider
-					</label>
-				</div><br>
-				<div class="mycontent2">
-					<a href="#"><img src="images/screenshots/trainticketshort.jpg" width="100%"></a>
-					<!--<a href="#">visit</a>&nbsp;&nbsp;-->
-					<label>
-						An online train ticket booking platform to aid in time management and synchronize terminal activities
-					</label>
-				</div>
-			</div>
-		</div>
-  <!-- end of portfolio -->
-		<!-- feedback -->
-
-		<div class="Feedback" id="Feedback">
-			<div class="mydiscription">
-				<p>
-					Hello, am Daniel kindly drop your feedback here with your email if needs reply 
-				</p>
-			</div>
-				<fieldset>
-					<legend>My reach out</legend>
-					<label>Subject</label><br>
-					<input type="text" name="" placeholder="Enter subject here" id="feedbacksubject"><br>
-					<label>Your feedback/message</label><br>
-					<textarea id="feedbackmessage">
-						
-					</textarea><br>
-					<label>You Email :</label><br>
-					<input type="email" name="" placeholder="email for reply" id="feedbackemail"><br>
-					<button id="btnsubmitfeedback">submit</button>
-				</fieldset>
-			
-			</div>
-		</div>
-
-		<!-- end of feedback -->
-		
-		
-	</div><br>
-	<!-- end of content two -->
-</div>
-<br>
-<!-- start of stories -->
-	<div class="holder">
+    	 </section>
+    	 <section class="section-stories snapsection">
+    	 		<div class="holder">
 	<div class="card">
 		<div class="card-text">
 
@@ -315,16 +300,16 @@
 		<svg> some logo here </svg>
 	</div>
 </div>
-<!-- end of stories -->
-<br><br>
-
-</div>
-<div id="moveup" style="background:#051818 ">
+    	 </section>
+    	  <section class="section-morestory snapsection">
+    	  	 more story
+    	  </section>
+    	  <section class="section-footer snapsection">
+    	  	<div id="moveup" style="background:#051818 ">
 	<center><div id="up"  style="background: #051818"><a><span class="btnmenu" onclick="topFunction()"><i class="fa fa-arrow-circle-up icons"></i></span>  </a></div></center>
 	
 </div>
- <!-- footer start -->
-<div id="footer" style="background: #051818; color: #f1f1f1 ">
+    	  	<div id="footer" style="background: #051818; color: #f1f1f1 ">
 		
 		<center>
 	<label style="font-size: 24px">Best Quote</label>
@@ -380,7 +365,10 @@
 	</center>
 	</center>
 	</div>
-     <!-- end of footer -->
+    	  </section>
+    </div>
+
+
 	<!-- body end start of scripts -->
 
 

@@ -9,7 +9,6 @@
 
 /* new navbar*/
 #content{
-  	margin-top:130px;
   	padding:15px 15px;
   }
 #navbar {
@@ -17,8 +16,7 @@
   background-color: #f1f1f1;
   padding: 20px 10px;
   transition: 0.4s;
-  position: fixed;
-  width: 99%;
+  width: 100%;
   top: 0;
   z-index: 99;
 }
