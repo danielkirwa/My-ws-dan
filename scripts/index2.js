@@ -1,27 +1,69 @@
+  
+  const numSteps = 20.0;
 
-var mybutton = document.getElementById("up");
+let mySection;
+let prevRatio = 0.0;
+let increasingColor = "rgba(158,142,129, ratio)";
+let decreasingColor = "rgba(254, 255, 254, ratio)";
+let imagewidth = '0px'
 
-// When the user scrolls down 20px from the top of the document, show the button
+// Set things up
+window.addEventListener("load", (event) => {
+  mySection = document.querySelector(".snapsection");
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  scrollToTop();
+  createObserver();
+}, false);
+
+// creating intersection observer
+function createObserver() {
+  let observer;
+
+  let options = {
+    root: null,
+    rootMargin: "0px",
+    threshold: buildThresholdList()
+  };
+
+  observer = new IntersectionObserver(handleIntersect, options);
+  observer.observe(mySection);
 }
- const scrollToTop = () => {
-  const c = document.documentElement.scrollTop || document.body.scrollTop;
-  if (c > 0) {
-    window.requestAnimationFrame(scrollToTop);
-    window.scrollTo(0, c - c / 6);
+//binding array threshold
+function buildThresholdList() {
+  let thresholds = [];
+  let numSteps = 20;
+
+  for (let i=1.0; i<=numSteps; i++) {
+    let ratio = i/numSteps;
+    thresholds.push(ratio);
   }
-};
+
+  thresholds.push(0);
+  return thresholds;
+}
+// add intersection change
+function handleIntersect(entries, observer) {
+  entries.forEach((entry) => {
+    if (entry.intersectionRatio > prevRatio) {
+      entry.target.style.backgroundColor = increasingColor.replace("ratio", entry.intersectionRatio);
+    } else {
+      entry.target.style.backgroundColor = decreasingColor.replace("ratio", entry.intersectionRatio);
+    }
+
+    prevRatio = entry.intersectionRatio;
+  });
+}
 
 
 
-// add action to menu icon
 
 
 
-// call resume or portfolio
+
+
+
+
+
+
 // animate typing effect
 const texts = ['a Web Developer  ','an Android Developer  '];
 let count = 0;
@@ -44,7 +86,9 @@ let letter = '';
 
 }());
 
-function getdate() {
+
+
+/*function getdate() {
   // body...
   let date = new Date();
   var thisyear = date.getFullYear();
@@ -96,6 +140,6 @@ if (btnsubmit == null) {
    
   })
 
-}
+}*/
 
 

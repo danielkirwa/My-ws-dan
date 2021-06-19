@@ -9,6 +9,7 @@
  	position: relative;
  	box-shadow: 0 5px 15px rgba(0,0,0,5);
  	width: 70%;
+ 	height: 60%;
  	margin-left: 15%;
  }
  .glassbox:before{
@@ -21,9 +22,7 @@
  	background-image: url(images/techbackground3.jpg);
  	filter: blur(4px);
  }
-body{
-	background: #3b3b3b ;
-}
+
 .scrolldown{
 	position: absolute;
 	bottom: 2px;
@@ -84,12 +83,12 @@ body{
   	background-position: center center;
   	background-position: 100% 50;
   	padding:15px 15px;
-  	height: 80vh;
+  	height: 90vh;
   }
 #content1 p{
 	font-size: 18px;
 	font-weight: bold;
-	width: 50%;
+	width: 100%;
 	color: white;
   }
   #content1 h3{
@@ -134,172 +133,6 @@ body{
 	font-style: italic;
 	
 }
-#navbar-right label{
-	font-size: 20px;
-	margin-right: 20px;
-}
-
-/*portfolio design*/
-.submenu{
-	background: #00000000;
-	padding: 5px;
-	height: 100px;
-}
-
-.submenu-menu{
-	background: #051818;
-	padding: 15px 8px;
-	overflow: hidden;
-	border-top-left-radius: 20px;
-	border-bottom-left-radius: 20px;
-	width: 50%;
-	margin-left: 30%;
-	margin-top: -6%;
-	pointer-events: none;
-	opacity: 0;
-
-}
-.submenu-menu a {
-	background: #051818;
-	padding: 12px 8px;
-
-}
-.btnmenu{
-	cursor: pointer;
-	margin-left: 90%;
-
-}
-/* resume and portfolio */
-.Portfolio{
-	padding: 1%;
-	background: #00000000;
-}
-.resumecontent{
-	color: white;
-}
-
-/* content for portfiloi */
-.mydiscriptioncontent{
-	display: flex;
-	padding: 1%;
-}
-.mycontent1{
-	width: 40%;
-	margin-left: 5%;
-	background: #bebebe;
-	border-radius: 12px;
-	padding: 2%;
-
-}
-.mydiscription p{
- color: #f1f1f1;
-}
-.mycontent2{
-	width: 40%;
-	margin-left: 5%;
-	background: #bebebe;
-
-	border-radius: 12px;
-	padding: 2%;
-}
-.mycontent2 img{
-  opacity: 0.5;
-}
-.mycontent1 img{
-opacity: 0.5;
-}
-.mycontent2 img:hover{
-  opacity: 0.9;
-}
-.mycontent1 img:hover{
-opacity: 0.9;
-}
-/* rating styling */
-.myresumerating{
-	width: 90%;
-	padding:1%;
-	margin-left: 4%;
-	color: black;
-}
-.myrate{
-	background: #bebebe;
-	border-radius: 10px;
-	padding:3px;
-}
-#ratingtable th{
-	background-color: #051818 ;
-	padding: 10px 8px;
-	color: white;
-}
-.ratescorehead{
-	width: 90%;
-}
-#ratetrack{
-	background: #f1f1f1;
-	width: 100%;
-	height: 20px;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-	border: 2px solid black;
-}
-/* rate score given*/
-/* 85 #228b22 ,70 #57e32c, 60 #ffe234 ,50 #ffa534*/
-#javaratetrain{
-	background: #228b22;
-	background-image: linear-gradient(to right, #fff , #228b22);
-	width: 90%;
-	height: 100%;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-}
-#htmlratetrain{
-	background: #57e32c;
-	background-image: linear-gradient(to right, #fff , #57e32c);
-	width: 85%;
-	height: 100%;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-}
-#cssratetrain{
-	background: #b7dd29;
-	background-image: linear-gradient(to right, #fff , #b7dd29);
-	width: 83%;
-	height: 100%;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-}
-#uxratetrain{
-	background: #b7dd29;
-	background-image: linear-gradient(to right, #fff , #b7dd29);
-	width: 72%;
-	height: 100%;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-}
-#javascriptratetrain{
-	background: #b7dd29;
-	background-image: linear-gradient(to right, #fff , #b7dd29);
-	width: 80%;
-	height: 100%;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-}
-#gitratetrain{
-	background:  #57e32c;
-	background-image: linear-gradient(to right, #fff ,  #57e32c);
-	width: 84%;
-	height: 100%;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-}
-#laravelratetrain{
-	background:  	#ffa534;
-	background-image: linear-gradient(to right, #fff , #ffa534);
-	width: 40%;
-	height: 100%;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-}
 
 /* iocns */
 .icon {
@@ -327,130 +160,7 @@ opacity: 0.9;
 
 /* small about me div */
 
-.holder{
-	position: relative;
-}
-.holder:before, .holder:after{
-	animation: orbit 6s linear infinite ;
-	border-radius: 50%;
-	box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
-	content: '';
-	height: 150px;
-	position: absolute;
-	width: 150px;
-	left: 40%;
-	top: 40%;
-}
-.holder:before{
-	background: #242124; 
-	background: -moz-radial-gradient(top right, #242124 ,  	#000014 );
-	background: radial-gradient(to bottom left, #242124,  	#000014 );
-	background: -webkit-radial-gradient(top right , #242124,  	#000014  );
-	z-index: -1;
 
-}
-.holder:after{
-	animation-delay: 2.5s;
-	background: #e0e793;
-	background: -moz-radial-gradient(bottom right, #242124 ,  	#000014 );
-	background: radial-gradient(to top left, #242124,  	#000014 );
-	background: -webkit-radial-gradient(bottom right , #242124,  	#000014  );
-	right: 50;
-	top: 50;
-	z-index: -1;
-}
-.card{
-	border: 1px solid #fff;
-	border-radius: 15px;
-	box-shadow: 0 0 1rem 0 rgba(0 ,0,0,0.2); 
-	font-size: 2rem;
-	overflow: hidden;
-	position: relative;
-	width: 70%;
-	margin-left: 15%;
-}
-.card:before{
-	background-color: rgb(255, 255,255, 0.3);
-	backdrop-filter:blur(10px) saturate(100%) contrast(45%)brightness(130%);
-	content: '';
-	height: 100%;
-	position: absolute;
-	width: 100%;
-}
-.card-text{
-	color: #000;
-	margin-top: 30px;
-	margin-left: 30px;
-	position: relative;
-	z-index: 2;
-
-}
-.card svg{
-	bottom: 3px;
-	position: absolute;
-	right: 30px;
-	
-}
-@keyframes orbit{
-	from{
-		transform: rotate(0deg) translateX(100px) rotate(0deg);
-
-	}
-	to{
-		transform: rotate(360deg) translateX(100px) rotate(-360deg);
-		
-	}
-}
-
-@keyframes rotate{
-	0%{
-		transform: rotate(0deg);
-	}
-	50%{
-		transform: rotate(180deg);
-	}
-	100%{
-		transform: rotate(360deg);
-	}
-}
-
-
-/* feedback page**/
-fieldset label{
-	font-size: 20px;
-}
-fieldset input[type=text] ,input[type=email] {
-  width: 80%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  border-color: blue;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-fieldset textarea{
-  width: 80%;
-  padding: 12px 2px;
-  margin: 8px 0;
-  border-color: blue;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  min-height: 150px;
-}
-fieldset button{
-  background:  #051818;
-  width: 80%;
-  padding: 12px 2px;
-  margin: 8px 0;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-size: 20px;
-  cursor: pointer;
-  color: #fff;
-}
 
 @media (max-width: 800px){
 
@@ -477,41 +187,7 @@ fieldset button{
 	margin-left: 0%;
 	box-shadow: 0 0 10px  white;
 }
-.btnmenu{
-	cursor: pointer;
-	margin-left: 90%;
 
-}
-.submenu-menu a {
-	background: #051818;
-	padding: 2px 1px;
-
-}
-.mydiscriptioncontent{
-	display: block;
-	padding: 1%;
-}
-.mycontent1{
-	width: 90%;
-	margin-left: 5%;
-	background: #bebebe;
-
-}
-.mycontent2{
-	width: 90%;
-	margin-left: 5%;
-	background: #bebebe;
-}
-#content1 p{
-	font-size: 18px;
-	font-weight: bold;
-	width: 90%;
-	color: white;
-  }
-  .card{
-  	width: 90%;
-  	margin-left: 5%;
-  }
 
 }
 a{

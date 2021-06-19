@@ -1,11 +1,4 @@
 
-#footer{
-	background: #051818;
-	padding: 10px;
-	display: flex;
-  color: #f1f1f1;
-}
-
 
 /* new navbar*/
 #content{
@@ -32,6 +25,8 @@
 #navbar-right {
   float: right;
   padding-right: 15px;
+  font-style: oblique;
+  font-size: 2em;
 }
 
 @media screen and (max-width: 650px) {
@@ -48,23 +43,3 @@
 }
 
 /*end new navbar*/
-
-/*page up*/
-#moveup{
-  background: #f1F1F1;
-  padding: 10px;
-}
-#up{
-  background: #f1f1f1;
-  width: 50px;
-  height: 50px;
-  animation : move 20s linear infinite;
-}
-@keyframes move{
-  0%{
-    transform: translate(0%);
-  }
-   50%{
-    transform: translate(100%);
-  }
-}
