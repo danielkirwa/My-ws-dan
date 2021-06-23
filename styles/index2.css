@@ -76,7 +76,9 @@
 #content2{
   	padding:15px 15px;
   	display: flex;
+  	
   }
+
   #content1{
   	-webkit-background-size: cover;
   	background-repeat: no-repeat;
@@ -101,7 +103,36 @@
 	margin-left: 5%;
 	box-shadow: 0 0 10px  white;
 	border-radius: 20px;
+	position: relative;
+}
+.backimage{
+  	background: teal;
+  	position: absolute;
+  	animation-name: revolve;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+  	color: white;
+  	padding: 8px;
+  }
+
+  @keyframes revolve{
 	
+	 0%   {background-color:block; left:1%; top:1%;
+	 		transform: rotate(0deg);
+	 }
+  25%  {background-color:red; left:90%; top:1%;
+  		transform: rotate(180deg);
+   }
+  50%  {background-color:green; left:90%; top:90%;
+  		transform: rotate(360deg);
+  }
+  75%  {background-color:white; left:1%; top:90%;
+      transform: rotate(180deg);
+      color: black;
+   }
+  100% {background-color:black; left:1%; top:1%;
+  		transform: rotate(0deg);
+  }
 }
 #mytag{
 	color: black;
@@ -158,8 +189,35 @@
 	animation: rotate 1s linear;
 }
 
+
+
+
 /* small about me div */
 
+.myinforcard{
+	border-radius:50px;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	display: block;
+	margin-top: 24px;
+}
+ .glassbox-myinforcard{
+ 	position: relative;
+ 	box-shadow: 0 5px 15px rgba(0,0,0,5);
+
+ 	
+ }
+ .glassbox-myinforcard:before{
+ 	content: '';
+ 	position: absolute;
+ 	top: -20px;
+ 	bottom: -20px;
+ 	left: -20px;
+ 	right: -20px;
+ 	background-image: url(images/techbackground3.jpg);
+ 	filter: blur(4px);
+ }
 
 
 @media (max-width: 800px){
