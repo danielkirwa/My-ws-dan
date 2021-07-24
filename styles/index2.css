@@ -105,35 +105,7 @@
 	border-radius: 20px;
 	position: relative;
 }
-.backimage{
-  	background: teal;
-  	position: absolute;
-  	animation-name: revolve;
-  	animation-duration: 12s;
-  	animation-iteration-count: infinite;
-  	color: white;
-  	padding: 8px;
-  }
 
-  @keyframes revolve{
-	
-	 0%   {background-color:block; left:1%; top:1%;
-	 		transform: rotate(0deg);
-	 }
-  25%  {background-color:red; left:90%; top:1%;
-  		transform: rotate(180deg);
-   }
-  50%  {background-color:green; left:90%; top:90%;
-  		transform: rotate(360deg);
-  }
-  75%  {background-color:white; left:1%; top:90%;
-      transform: rotate(180deg);
-      color: black;
-   }
-  100% {background-color:black; left:1%; top:1%;
-  		transform: rotate(0deg);
-  }
-}
 #mytag{
 	color: black;
 	font-size: 24px;
@@ -186,7 +158,9 @@
   border-radius: 50%;
 }
 .icon:hover{
+	 
 	animation: rotate 1s linear;
+	
 }
 
 
