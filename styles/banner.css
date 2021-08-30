@@ -9,7 +9,7 @@
   background-color: #f1f1f1;
   padding: 20px 10px;
   transition: 0.4s;
-  width: 100%;
+  width: 98%;
   top: 0;
   z-index: 99;
 }
@@ -28,6 +28,33 @@
   font-style: oblique;
   font-size: 2em;
 }
+.image-holder{
+ float: right;
+ position: relative;
+ top: -320px;
+ z-index: 1;
+}
+ /* unvisited link */
+#footer a:link {
+  color: #f1f1f1;
+  font-size: 18px;
+}
+
+/* visited link */
+#footer a:visited {
+  color: green;
+}
+
+/* mouse over link */
+#footer a:hover {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* selected link */
+#footer a:active {
+  color: blue;
+} 
 
 @media screen and (max-width: 650px) {
   #navbar {

@@ -134,11 +134,7 @@
   		transform: rotate(0deg);
   }
 }
-#mytag{
-	color: black;
-	font-size: 24px;
-	font-weight: bold;
-}
+
 
 #smallcards p{
 	font-size: 18px;
@@ -247,10 +243,4 @@
 }
 
 
-}
-a{
-  color: #00bfff;
-}
-a:visited {
-  color: #f500f5;
 }
