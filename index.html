@@ -1,111 +1,120 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
+  <title>Daniel Kipchirchir</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles/parallax.css">
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet"> 
+ <style type="text/css">
+   .about {
+  background-image: url("images/bgnature.jpg");
+  min-height: 450px;
 }
-
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-.bgimg-1 {
+.dashboard {
   background-image: url("images/techbackground3.jpg");
   min-height: 100%;
 }
 
-.bgimg-2 {
-  background-image: url("images/techbackground2.png");
+.skills {
+  background-image: url("images/bgcode.jpg");
   min-height: 400px;
 }
-
-.bgimg-3 {
-  background-image: url("images/mypotrait.png");
+.projects {
+  background-image: url("images/bgprojects.jpg");
   min-height: 400px;
 }
-
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
+.education {
+  background-image: url("images/bgeducation.jpg");
+  min-height: 400px;
 }
-.caption label.typing {
-  color: brown;
-  padding: 12px;
-  font-size: 28px;
-  letter-spacing: 2px;
-  font-weight: bold;
+.footer {
+  background-image: url("images/bgsunset.jpg");
+  min-height: 400px;
 }
-
-
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
-}
-
 /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+@media(max-width: 850px){
+.about{
     background-attachment: scroll;
+    min-height: 100%;
   }
-}
-</style>
+  }
+ </style>
 </head>
 <body>
 
-<div class="bgimg-1">
-  <div class="caption glass">
- <label class="typing">Am ...<span class="myprofession"></span></label>
+<div class="dashboard">
+  <div class="caption-dash">
+ <label class="typing">Am ...<span class="myprofession"></span></label><br>
+ <label class="mybold large">PASSION</label><br>
+ <label class="mybold large">PERSISTENCE</label><br>
+ <label class="mybold large">PARACTICE</label><br>
+ <label class="mybold large">PATIENCE</label><br>
   </div>
 </div>
 
-<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-  <h3 style="text-align:center;">Parallax Demo</h3>
-  <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit.</p>
+<div class="mybibbon">
+  <p>“I’ve been passionate about technology since I was able to type. Have away st my mind to new enovations and inventiosn of mankind on technolgy. I knew  that I wanted to pursue technological oriented course to suit my passion, since I could not resist the inner me pushh towards tech. Am currently studing at <span class="mybold">KIBABII UNIVERSITY taking BCs INFORMATION TECHNOLOGY</span>”</p>
 </div>
 
-<div class="bgimg-2">
-  <div class="caption">
-  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
+<div class="about">
+  <div class="caption myprofile">
+  <div class="myprofile-text">
+    <p>“I’ve been passionate about technology since I was able to type. Have away st my mind to new enovations and inventiosn of mankind on technolgy. I knew  that I wanted to pursue technological oriented course to suit my passion, since I could not resist the inner me pushh towards tech. Am currently studing at <span class="mybold">KIBABII UNIVERSITY taking BCs INFORMATION TECHNOLOGY</span>”</p>
   </div>
-</div>
-
-<div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-  <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  <div class="myprofile-photo">
+    <img src="images/myprofile.png">
   </div>
-</div>
-
-<div class="bgimg-3">
-  <div class="caption">
-  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
   </div>
 </div>
 
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-  <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  <div class="ribbon-text">
+  <p>We learn new skills for a variety of reasons. Sometimes you need new skills to keep up with technological advances or to take advantage of newly developed techniques. </p>
   </div>
 </div>
 
-<div class="bgimg-1">
+<div class="skills">
   <div class="caption">
-  <span class="border">COOL!</span>
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Skills</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div class="ribbon-text">
+  <p>Projects we use to put our skills to test by achieve strategic goals, systematically and in a controlled manner</p>
+  </div>
+</div>
+
+<div class="projects">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Projects</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div class="ribbon-text">
+  <p>Education, It is a source of its obvious benefits for a fuller and better life. </p>
+  </div>
+</div>
+<div class="education">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Education</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div class="ribbon-text">
+  <p>Thank you for visiting, always again and again</p>
+  </div>
+</div>
+<div class="footer">
+  <div class="caption">
+  <span class="border">footer</span>
   </div>
 </div>
 <script type="text/javascript" src="scripts/my-web-dan.js"></script>

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+.mybold{
+  font-weight: bold;
+}
+.large{
+  font-size: 28px;
+}
+
+.dashboard, .about, .skills, .projects, .education, .footer {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  
+}
+.caption-dash {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  
+}
+.caption-dash label.typing {
+  color: brown;
+  padding: 12px;
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+
+.mybibbon{
+  color: #282E34;
+  background-color:#e7e7e7;
+  text-align:center;
+  padding:30px 50px;
+  text-align: justify;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+}
+.ribbon-text{
+  color:#282E34;
+  background-color:#e7e7e7;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+
+
