@@ -11,8 +11,12 @@
   padding:16px 24px;
   text-align: justify;
   font-family: 'Trebuchet MS', sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
+}
+.skill-card{
+   background-color: rgba(0,0,0,.5);
+    color: #fff;
 }
 @media (max-width: 1024px) {
   .myprofile{
@@ -28,7 +32,7 @@
   padding:1%;
   text-align: justify;
   font-family: 'Trebuchet MS', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 }
