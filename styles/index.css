@@ -18,6 +18,29 @@
    background-color: rgba(0,0,0,.5);
     color: #fff;
 }
+
+
+.iconz {
+  
+  color: #dcdcdc;
+  text-align: center;
+  padding: 2px;
+  background: #581845;
+  animation: rotateout 0.5s linear;
+}
+.iconz:hover{
+  animation: rotatein 0.5s linear;
+  color: dodgerblue;
+}
+
+@keyframes rotatein {
+  from { transform: rotate(0deg);}
+  to { transform: rotate(360deg);}
+}
+@keyframes rotateout {
+  from { transform: rotate(360deg);}
+  to { transform: rotate(0deg);}
+}
 @media (max-width: 1024px) {
   .myprofile{
 	display: block;
