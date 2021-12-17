@@ -1,0 +1,15 @@
+.projects-holder{
+  width: 100%;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project{
+      flex: 1 1 310px; /*  Stretching: */
+    flex: 0 1 310px; /*  No stretching: */
+    margin: 5px;
+}
+@media (max-width: 800px) {
+ 
+
+}

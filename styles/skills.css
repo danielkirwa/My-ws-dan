@@ -1,0 +1,97 @@
+.skills-holder{
+    width: 100%;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.language-container{
+  padding: 8px;
+  
+}
+.framework-container{
+  flex: 1 1 310px; /*  Stretching: */
+    flex: 0 1 310px; /*  No stretching: */
+    margin: 5px;
+}
+.technology-container{
+ flex: 1 1 310px; /*  Stretching: */
+    flex: 0 1 310px; /*  No stretching: */
+    margin: 5px;
+}
+
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.bar{
+  background-color: #EEE;
+  padding: 2px;
+  border-radius: 15px;
+  border-right: 1px #1a1110 solid;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.bar::before{
+  content:  attr(data-skill);
+  background-color: #f3b0ff;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
+
+.bar.front::before{
+  background-color: #ffcc33;
+}
+.bar.middle::before{
+  background-color: #a6cfe3;
+}
+.bar.back::before{
+  background-color: #a6cfe3;
+}
+.bar.strat::before{
+  background-color: #8fbc8b;
+}
+
+.bar.learning::before{
+  width: calc(35% - 10px);
+}
+.bar.basic::before{
+  width: calc(50% - 10px);
+}
+.bar.intermediate::before{
+  width: calc(70% - 10px);
+}
+.bar.advanced::before{
+  width: calc(80% - 10px);
+}
+.bar.expert::before{
+  width: calc(87% - 10px);
+}
+.bar.master::before{
+  width: calc(94% - 10px);
+}
