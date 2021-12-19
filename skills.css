@@ -95,3 +95,73 @@
 .bar.master::before{
   width: calc(94% - 10px);
 }
+ .piechartml {
+         
+            display: block;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-image: conic-gradient(
+                #f1f1f1 0deg, 
+                #8fbc8b 0 245deg, 
+                #f1f1f1 0);
+        }
+.piechartiot {
+         
+            display: block;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-image: conic-gradient(
+                #f1f1f1 0deg, 
+                #ffcc33 0 215deg, 
+                #f1f1f1 0);
+        }
+ .piechartlara {
+         
+            display: block;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-image: conic-gradient(
+                #f1f1f1 0deg, 
+                #8fbc8b 0 265deg, 
+                #f1f1f1 0);
+        }
+.piechartvue {
+         
+            display: block;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-image: conic-gradient(
+                #f1f1f1 0deg, 
+                #ffcc33 0 215deg, 
+                #f1f1f1 0);
+        }
+ .piechartreact {
+         
+            display: block;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-image: conic-gradient(
+                #f1f1f1 0deg, 
+                #8fbc8b 230deg, 
+                #f1f1f1 0);
+        }
+.piechartnode {
+         
+            display: block;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-image: conic-gradient(
+                #f1f1f1 0deg, 
+                #a6cfe3 0 215deg, 
+                #f1f1f1 0);
+        }        
+
+table , tr , td{
+  padding: 8px 8px;
+}

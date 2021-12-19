@@ -224,7 +224,19 @@ nav.sticky .logo a{
     margin: 5px;
 }
 
+.school-holder{
+      flex: 1 1 300px; /*  Stretching: */
+    flex: 0 1 300px; /*  No stretching: */
+    margin: 5px;
+    border: 1px solid #fff;
+  box-shadow: 0 0 0.5rem 0 rgba(0 ,0,0,0.3);
+  padding: 8px;
+  background: #fff;
 
+}
+.text-blue{
+    color: dodgerblue;
+}
 
 @media (max-width: 800px) {
  
