@@ -12,7 +12,7 @@ nav{
   z-index: 1000;
 }
 nav.sticky{
-  padding: 15px 20px;
+  padding: 8px 100px;
   background: #1a1110;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
@@ -22,7 +22,7 @@ nav .nav-content{
 }
 nav .logo a{
   font-weight: 300;
-  font-size: 28px;
+  font-size: 24px;
   color: #ffffff;
 }
 nav.sticky .logo a{
@@ -33,7 +33,7 @@ nav.sticky .logo a{
 }
 .nav-content .nav-links li{
   list-style: none;
-  margin: 0 8px;
+  margin: 0 2px;
 }
  .nav-links li a{
   text-decoration: none;
