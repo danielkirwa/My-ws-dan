@@ -1,0 +1,27 @@
+.projects-holder{
+  width: 100%;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project{
+      flex: 1 1 310px; /*  Stretching: */
+    flex: 0 1 310px; /*  No stretching: */
+    margin: 5px;
+}
+.image-change{
+  border-radius: 50%;
+  transition: 2s ease;
+  border: 2px solid #1a1110;
+  overflow: hidden;
+}
+.image-change:hover{
+  border-radius: 0%;
+}
+.text-dark{
+  color: #1a1110;
+}
+@media (max-width: 800px) {
+ 
+
+}
