@@ -95,6 +95,17 @@
 .bar.master::before{
   width: calc(94% - 10px);
 }
+ .piechartgit{
+         
+            display: block;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-image: conic-gradient(
+                #f1f1f1 0deg, 
+                #8fbc8b 0 245deg, 
+                #f1f1f1 0);
+        }
  .piechartml {
          
             display: block;
@@ -160,7 +171,10 @@
                 #f1f1f1 0deg, 
                 #a6cfe3 0 215deg, 
                 #f1f1f1 0);
-        }        
+        }  
+
+
+
 
 table , tr , td{
   padding: 8px 8px;

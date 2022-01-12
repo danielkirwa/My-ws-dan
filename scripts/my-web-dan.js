@@ -40,6 +40,7 @@ var firebaseConfig = {
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
+
 //insertcount() ;
 function insertcount() {
   // body...
