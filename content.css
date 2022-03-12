@@ -9,6 +9,23 @@
     flex: 0 1 310px; /*  No stretching: */
     margin: 5px;
 }
+.div-top-margin-blue{
+   border-top: 3px solid #a6cfe3;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.div-top-margin-yellow{
+   border-top: 3px solid #f1a7fe;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.div-top-margin-pink{
+  
+   border-top: 3px solid #ffcc33;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
 .image-change{
   border-radius: 50%;
   transition: 2s ease;
