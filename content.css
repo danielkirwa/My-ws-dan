@@ -21,6 +21,10 @@
 .text-dark{
   color: #1a1110;
 }
+.text-redish{
+  color: #dc3545;;
+}
+
 @media (max-width: 800px) {
  
 }

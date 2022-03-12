@@ -109,3 +109,10 @@ function updatevisitors(newcount) {
 let currentyear = document.getElementById('currentyear');
 let year = new Date();
 currentyear.innerHTML = year.getFullYear();
+
+// show more 
+
+/*let morecert = document.getElementById('morecert');
+morecert.addEventListener('click', () =>{
+  morecert.innerHTML = "Hide ";
+})*/

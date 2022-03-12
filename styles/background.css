@@ -47,6 +47,7 @@ body, html {
   font-weight: bold;
 }
 .footer{
-  background: #1a1110;
+  background: #feffff;
+  border-top: 3px solid #dc3545;
 }
 

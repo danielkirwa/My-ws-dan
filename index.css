@@ -7,9 +7,10 @@ nav{
   width: 100%;
   padding: 8px;
   transition: all 0.4s ease;
-  background: #1a1110;
-  color: #ffffff;
+  background: #f8f9fa;
+  color: #dc3545;
   z-index: 1000;
+  border-bottom: 3px solid #17252a;
 }
 nav.sticky{
   padding: 8px 100px;
@@ -23,10 +24,10 @@ nav .nav-content{
 nav .logo a{
   font-weight: 300;
   font-size: 24px;
-  color: #ffffff;
+  color: #dc3545;
 }
 nav.sticky .logo a{
-  color: #fff;
+  color: #dc3545;
 }
 .nav-links{
   display: flex;
@@ -37,24 +38,24 @@ nav.sticky .logo a{
 }
  .nav-links li a{
   text-decoration: none;
-  color: #ffffff;
+  color: #17252a;
   font-size: 18px;
   font-weight: 500;
   padding: 10px 4px;
   transition: all 0.3s ease;
 }
  .nav-links li a:hover{
-   color: #fff;
+   color: #dc3545;
  }
  .nav-links .active{
-  color: #fff;
+  color: #dc3545;
  }
  nav.sticky .nav-links li a{
    color: #fff;
    transition: all 0.4s ease;
 }
  nav.sticky .nav-links li a:hover{
-  color: #4070f4;
+  color: #fef63f;
 }
 .enddiv{
   display: flex;
@@ -236,6 +237,17 @@ nav.sticky .logo a{
 }
 .text-blue{
     color: dodgerblue;
+}
+
+.btnmorecert{
+    background: #00000000;
+    font-size: 18px;
+    padding: 8px 6px;
+    outline: none;
+    width: 30%;
+    border: none;
+    cursor: pointer;
+    color: brown;
 }
 
 @media (max-width: 800px) {
