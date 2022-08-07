@@ -116,3 +116,11 @@ currentyear.innerHTML = year.getFullYear();
 morecert.addEventListener('click', () =>{
   morecert.innerHTML = "Hide ";
 })*/
+
+
+// show more elements
+ var morecert1 = document.getElementById('morecert1');
+ var btnviewmorecert = document.getElementById('morecert');
+ var viewcertnumber = 0;
+
+// hide more by default

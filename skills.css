@@ -89,6 +89,9 @@
 .bar.advanced::before{
   width: calc(80% - 10px);
 }
+.bar.loweradvanced::before{
+  width: calc(85% - 10px);
+}
 .bar.expert::before{
   width: calc(87% - 10px);
 }
