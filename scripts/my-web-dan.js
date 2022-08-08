@@ -20,12 +20,11 @@ let letter = '';
 
 }());
 
+
+
+
+
 // visitors counter
-
-
-
-
-
     
 //firebase configerations 
 
