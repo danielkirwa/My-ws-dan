@@ -19,3 +19,6 @@ let letter = '';
   setTimeout(typing , 400);
 
 }());
+
+
+
