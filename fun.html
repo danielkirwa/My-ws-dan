@@ -4,22 +4,57 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>My fun page</title>
-	 <link rel="stylesheet" type="text/css" href="index.css">
-  <link rel="stylesheet" type="text/css" href="skills.css">
-  <link rel="stylesheet" type="text/css" href="content.css">
-    <link rel="stylesheet" type="text/css" href="scrolleffect.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<style type="text/css">
-	.ball {
+  <style type="text/css">
+  @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+  .ball {
   position: absolute;
   border-radius: 100%;
   opacity: 0.7;
 }
 body{
-	background: #343434;
+  background: #343434;
+}
+.fun-quate{width: 60%;
+ margin-left: 20%;
+  text-align: center; 
+  font-size: 26px;
+  font-family: 'Nabla', cursive;
+
+}
+.text-redish{
+  color: #dc3545;
+  font-family: 'Rubik Moonrocks', cursive;
+}
+.TEST{
+  font-family: 'Berkshire Swash', cursive;
+}
+.TESTWE{
+  font-family: 'Creepster', cursive;
+  color: crimson;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="skills.css">
+	 <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="style/fun.css">
+  <link rel="stylesheet" type="text/css" href="style/content.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
 <body>
 	 <nav>
     <div class="nav-content" >
@@ -40,15 +75,16 @@ body{
 <div class="row">
      <div class="col-md-12 project div-top-margin-pink" ><div class="block carddisplay div-top-margin-blue" data-rotate-y = "270deg" data-move-x="-150%">
         <center><h1 class="text-redish">View through my fun page</h1></center>
-        <p style="width: 60%; margin-left: 20%; text-align: center; font-size: 22px;">
+        <p class="fun-quate">
           Life is a beutifull thing, everyday is a chance to expand, relax and reflect of yesterday for the betterment of today and tommorow,<br>
-          Like the wave in the ocean change so do we change in quest to make ourselfs happy 
+          Like the wave in the ocean changes so do we change in quest to make ourselfs happy 
         </p>
      </div></div>
 
    </div>
 
-
+<label class="TEST">yet to fisnish</label>
+<label class="TESTWE">Yet to finish</label>
 
 
 
@@ -65,7 +101,7 @@ for (let i = 0; i < numBalls; i++) {
   ball.classList.add("ball");
   ball.style.background = colors[Math.floor(Math.random() * colors.length)];
   ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
-  ball.style.top = `${Math.floor(Math.random() * 60)}vh`;
+  ball.style.top = `${Math.floor(Math.random() * 80)}vh`;
   ball.style.transform = `scale(${Math.random()})`;
   ball.style.width = `${Math.random()}em`;
   ball.style.height = ball.style.width;
