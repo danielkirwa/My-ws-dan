@@ -4,3 +4,16 @@
   font-size: 22px;
   font-family: 'Nabla', cursive;
 }
+.fun-holder{
+    width: 80%;
+    margin-left: 10%;
+}
+.fun-item{
+  display: flex;
+}
+.fun-item-left{
+    width: 50%;
+}
+.fun-item-right{
+    width: 50%;
+}
