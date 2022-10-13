@@ -30,13 +30,12 @@
 }
 .level-rail{
   padding-top: -9px;
- background: #f8f9fa;;
+ background: teal;
   height: 16px;
   overflow: visible;
  
 }
 .level-point{
-  margin-left: 50%;
   background: dodgerblue;
   color: dodgerblue;
   max-width: 18px;
@@ -101,6 +100,60 @@
   font-weight: bold;
 }
 
+/*posistion of level*/
+
+.bg-level-point{
+  margin-left: 8%;
+  background: #be0032;
+}
+.av-level-point{
+  margin-left: 28%;
+  background: #ff6961;
+}
+.sk-level-point{
+  margin-left: 48%;
+  background: #ed9121;
+}
+.sp-level-point{
+ margin-left: 69%;
+ background: #8bbe1b;
+}
+.ex-level-point{
+  margin-left: 90%;
+  background: #008000;
+}
+/*color framework*/
+.bg-level-framework{
+  color: #be0032;
+}
+.av-level-framework{
+  color: #ff6961;
+}
+.sk-level-framework{
+  color: #ed9121;
+}
+.sp-level-framework{
+ color: #8bbe1b;
+}
+.ex-level-framework{
+  color: #008000;
+}
+/*color framework rail*/
+.bg-level-rail{
+ background : #be0032;
+}
+.av-level-rail{
+ background : #ff6961;
+}
+.sk-level-rail{
+ background : #ed9121;
+}
+.sp-level-rail{
+ background : #8bbe1b;
+}
+.ex-level-rail{
+ background : #008000;
+}
 
 
 
