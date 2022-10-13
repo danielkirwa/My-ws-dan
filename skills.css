@@ -19,6 +19,10 @@
     flex: 0 1 310px; /*  No stretching: */
     margin: 5px;
 }
+.framework-rates{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 8px;
+  }
 
 .level-rate{
   display: flex;
@@ -32,7 +36,7 @@
  
 }
 .level-point{
-  margin-left: 20%;
+  margin-left: 50%;
   background: dodgerblue;
   color: dodgerblue;
   max-width: 18px;
@@ -44,13 +48,13 @@
 }
 
 .my-bullet-bg{
-  background: #ff6961;
+  background: #be0032;
   max-width: 18px;
   min-height: 18px;
   border-radius: 50%;
 }
 .my-bullet-av{
-  background: #be0032;
+  background: #ff6961;
   max-width: 18px;
   min-height: 18px;
   border-radius: 50%;
@@ -77,11 +81,11 @@
 
 
 .bg-level{
-  color: #ff6961;
+  color: #be0032;
   font-weight: bold;
 }
 .av-level{
-  color: #be0032;
+  color: #ff6961;
   font-weight: bold;
 }
 .sk-level{
