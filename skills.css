@@ -20,6 +20,88 @@
     margin: 5px;
 }
 
+.level-rate{
+  display: flex;
+
+}
+.level-rail{
+  padding-top: -9px;
+ background: #f8f9fa;;
+  height: 16px;
+  overflow: visible;
+ 
+}
+.level-point{
+  margin-left: 20%;
+  background: dodgerblue;
+  color: dodgerblue;
+  max-width: 18px;
+  min-height: 32px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 20px;
+}
+
+.my-bullet-bg{
+  background: #ff6961;
+  max-width: 18px;
+  min-height: 18px;
+  border-radius: 50%;
+}
+.my-bullet-av{
+  background: #be0032;
+  max-width: 18px;
+  min-height: 18px;
+  border-radius: 50%;
+}
+.my-bullet-sk{
+  background: #ed9121;
+  max-width: 18px;
+  min-height: 18px;
+  border-radius: 50%;
+}
+.my-bullet-sp{
+  background: #8bbe1b;
+  max-width: 18px;
+  min-height: 18px;
+  border-radius: 50%;
+}
+.my-bullet-ex{
+  background: #008000;
+  max-width: 18px;
+  min-height: 18px;
+  border-radius: 50%;
+}
+
+
+
+.bg-level{
+  color: #ff6961;
+  font-weight: bold;
+}
+.av-level{
+  color: #be0032;
+  font-weight: bold;
+}
+.sk-level{
+  color: #ed9121;
+  font-weight: bold;
+}
+.sp-level{
+  color: #8bbe1b;
+  font-weight: bold;
+}
+.ex-level{
+  color: #008000;
+  font-weight: bold;
+}
+
+
+
+
+
+
 @keyframes load{
   from {
     width: 0%
