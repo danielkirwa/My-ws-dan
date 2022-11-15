@@ -237,87 +237,27 @@
 .bar.master::before{
   width: calc(94% - 10px);
 }
- .piechartgit{
-         
-            display: block;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background-image: conic-gradient(
-                #f1f1f1 0deg, 
-                #8fbc8b 0 245deg, 
-                #f1f1f1 0);
-        }
- .piechartml {
-         
-            display: block;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background-image: conic-gradient(
-                #f1f1f1 0deg, 
-                #8fbc8b 0 245deg, 
-                #f1f1f1 0);
-        }
-.piechartiot {
-         
-            display: block;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background-image: conic-gradient(
-                #f1f1f1 0deg, 
-                #ffcc33 0 215deg, 
-                #f1f1f1 0);
-        }
- .piechartlara {
-         
-            display: block;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background-image: conic-gradient(
-                #f1f1f1 0deg, 
-                #8fbc8b 0 265deg, 
-                #f1f1f1 0);
-        }
-.piechartvue {
-         
-            display: block;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background-image: conic-gradient(
-                #f1f1f1 0deg, 
-                #ffcc33 0 215deg, 
-                #f1f1f1 0);
-        }
- .piechartreact {
-         
-            display: block;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background-image: conic-gradient(
-                #f1f1f1 0deg, 
-                #8fbc8b 230deg, 
-                #f1f1f1 0);
-        }
-.piechartnode {
-         
-            display: block;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background-image: conic-gradient(
-                #f1f1f1 0deg, 
-                #a6cfe3 0 215deg, 
-                #f1f1f1 0);
-        }  
 
-
-
-
-table , tr , td{
-  padding: 8px 8px;
+/*style tech*/
+.tech-holder{
+padding: 8px;
+display: flex;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+.tech-item-holder{
+ background: #f05134;
+ padding: 8px;
+ width: 130px;
+ height: 130px;
+ border-radius: 70px;
+}
+.tech-item{
+ 
+ width: 120px;
+ height: 120px;
+ border-radius: 50%;
+}
+.tech-details{
+  width: 100%;
+}
+ 
