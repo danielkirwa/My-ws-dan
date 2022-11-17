@@ -249,6 +249,24 @@ nav.sticky .logo a{
     cursor: pointer;
     color: brown;
 }
+.cert-number-blue{
+    padding: 16px;
+    background: dodgerblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cert-number-yellow{
+    padding: 16px;
+    background: #f1a7fe;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cert-number-pink{
+    padding: 16px;
+    background: #ffcc33;
+    font-size: 20px;
+    font-weight: bold;
+}
 
 @media (max-width: 800px) {
  
