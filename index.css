@@ -268,6 +268,44 @@ nav.sticky .logo a{
     font-weight: bold;
 }
 
+.btndownloadcv{
+    background: dodgerblue;
+    padding: 6px 8px;
+    outline: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 0 0.5rem 0 rgba(0 ,0,0,0.3);
+    float: right;
+    margin-right: 32px;
+
+}
+.btndownloadcv a{
+    background: dodgerblue;
+    padding: 6px 8px;
+    outline: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 0 0.5rem 0 rgba(0 ,0,0,0.3);
+    float: right;
+    margin-right: 32px;
+    text-decoration: none;
+
+}
+.resent{
+    font-size: 18px;
+    font-weight: bold;
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+
+
 @media (max-width: 800px) {
  
 }

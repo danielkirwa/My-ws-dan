@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
    <meta name="description" content="danielkirwa portfolio">
+   <link rel = "icon" href = "images/profilephoto.png" type = "image/x-icon">
   <link rel="stylesheet" type="text/css" href="styles/background.css">
   <link rel="stylesheet" type="text/css" href="index.css">
   <link rel="stylesheet" type="text/css" href="skills.css">
   <link rel="stylesheet" type="text/css" href="content.css">
+  <link rel="stylesheet" type="text/css" href="language.css">
     <link rel="stylesheet" type="text/css" href="scrolleffect.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  
@@ -25,6 +27,10 @@
 .morecert1{
   display: none;
 }
+ 
+
+        
+ 
 
  </style>
 </head>
@@ -38,10 +44,12 @@
         <li><a href="index.html#skills">Skills</a></li>
         <li><a href="index.html#projects">Projects</a></li>
         <li><a href="index.html#education">Education</a></li>
-        <li><a href="index.html#myteam">Team</a></li>
-        <li><a href="#">More</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="home.html">More</a></li>
       </ul>
     </div>
+    <a href="index.html#resent" class="resent">Most resent</a>
+     <button class="btndownloadcv"><i class="fa-fa-download"></i><a href="cv/CV_2022121213451142.pdf" download="Daniel CV" target="_blank">Download CV</a> </button>
   </nav>
 
 <div class="dashboard">
@@ -241,20 +249,42 @@
   </div>
    <div class="language-container js-scroll fade-in-bottom">
     <h1 class="text-redish">Languages</h1>
-    <div class="bar expert" data-skill="Java Desktop"><span class="text-dark">85%</span></div>
-    <div class="bar expert" data-skill="Java Android"><span class="text-dark">85%</span></div>
-    <div class="bar back loweradvanced" data-skill="PHP"><span class="text-dark">83%</span></div>
-    <div class="bar back advanced" data-skill="Javascript"><span class="text-dark">75%</span></div>
-    <div class="bar front advanced" data-skill="CSS3"><span class="text-dark">73%</span></div>
-    <div class="bar front advanced" data-skill="HTML5"><span class="text-dark">72%</span></div>
-    <div class="bar front basic" data-skill="Arduino"><span class="text-dark">50%</span></div>
-    <div class="bar front learning" data-skill="C#"><span class="text-dark">35%</span></div>
+         <div class="my-lamgues">
+        <div class="my-language-spinner">
+            <div class="caixa__card cc__1">
+             <img src="images/java.png" width="40px">
+              Java Desktop<br> 97%</div>
+            <div class="caixa__card cc__2">
+              <img src="images/html-5.png" width="40px">
+              HTML <br> 97%</div>
+            <div class="caixa__card cc__3">
+              <img src="images/php.png" width="40px">
+              PHP web  <br> 95%</div>
+            <div class="caixa__card cc__4">
+              <img src="images/javascript.png" width="40px">
+            JavaScript 90% </div>
+            <div class="caixa__card cc__5">
+              <img src="images/bootstrap.jpg" width="40px">
+              CSS/Bootstrap <br>90%</div>
+            <div class="caixa__card cc__6">
+              <img src="images/android.png" width="40px">
+              Java Android <br> 80%</div>
+            <div class="caixa__card cc__7">
+              <img src="images/arduino.png" width="40px">
+              Arduino <br> 60%</div>
+            <div class="caixa__card cc__8">
+                <img src="images/python.png" width="40px">
+                <br>Python <br> 50%
+            </div>
+        </div>
+    </div>
   </div>
      
   
   </div>
   
 </section>
+<br><br><br><br>
 <!-- web projects -->
 <section class="scroll-container" id="projects">
   <div class="scroll-element ">
@@ -465,11 +495,65 @@
     </div>
 
     <!-- certification -->
-<center><label class="large text-redish">Certification</label></center>
+<center><label class="large text-redish">Training/Certification <br> and short course</label></center>
+
+<div class="projects-holder" id="resent">
+      <div class="project div-top-margin-pink school-holder js-scroll fade-in-bottom">
+        <label class="cert-number-pink">Resent</label>
+       <h2>Condingal Inc</h2>
+     <!--   <img src="images/hotel.png" width="100%"> -->
+       <p>
+        <b>Codingal Certified Instructor</b><br>
+       Training done by codingal Inc based in Silicon valley <br>
+        (i) Plan for coding session<br>
+        (ii) Review of projects<br> 
+        (iii) Enrolling students<br>
+        (iv) Report generation<br>
+        
+        <a href="https://simpli-web.app.link/e/3k5OFP51bub" target="_blank">View certificate</a>
+       </p>
+    </div>
+      
+     <div class="project div-top-margin-yellow school-holder js-scroll fade-in-bottom">
+      <label class="cert-number-yellow">1</label>
+       <h2>Simplilearn</h2>
+     <!--   <img src="images/hotel.png" width="100%"> -->
+       <p>
+        <b>Business Analytics with Excel</b><br>
+        Was able to learn whole concept of excel as a tool for business analysis and even projection of the business. Was able to learn analysis including <br>
+        (i) Excell Formula and fuctions<br>
+        (ii) Data Visualization<br> 
+        (iii) Anova<br>
+        (iv) Macros<br>
+       
+        
+        <a href="https://simpli-web.app.link/e/2a69gg11bub" target="_blank">View certificate</a>
+       </p>
+    </div>
+     <div class="project school-holder div-top-margin-blue js-scroll slide-right">
+      <label class="cert-number-blue">2</label>
+      <h2>Great Learning</h2>
+      
+       <p>
+         <b>Web scraping with python</b><br>
+        Was able to learn the concept of web scraping and master the tools that are used.
+        <ol>
+          <li>Use Beautifulsoup</li>
+          <li>Python concept</li>
+          <li>How to scrapt website</li>
+        </ol> <br>
+         <a href="https://www.mygreatlearning.com/academy/courses/6811576/64939#?utm_source=share_with_friends" target="_blank">View certificate</a>
+       </p>
+    </div> 
+
+    </div>
+
+
+
   <div class="projects-holder">
   
       <div class="project div-top-margin-blue school-holder js-scroll slide-left">
-        <label class="cert-number-blue">1</label>
+        <label class="cert-number-blue">3</label>
        <h2>Offered by Google</h2>
      
        <p>
@@ -485,7 +569,7 @@
        </p>
     </div>
      <div class="project div-top-margin-yellow school-holder js-scroll fade-in-bottom">
-      <label class="cert-number-yellow">2</label>
+      <label class="cert-number-yellow">4</label>
        <h2>Indian School of Business (ISB)</h2>
      <!--   <img src="images/hotel.png" width="100%"> -->
        <p>
@@ -499,7 +583,7 @@
        </p>
     </div>
     <div class="project school-holder div-top-margin-pink js-scroll slide-right">
-      <label class="cert-number-pink">3</label>
+      <label class="cert-number-pink">5</label>
       <h2>University of Colorado</h2>
       <!--  <img src="images/school.png" width="100%"> -->
        <p>
@@ -517,7 +601,7 @@
     <!-- more certification holder 3 -->
     <div class="projects-holder">
       <div class="project div-top-margin-pink school-holder js-scroll fade-in-bottom">
-        <label class="cert-number-pink">4</label>
+        <label class="cert-number-pink">6</label>
        <h2>University of California, DAVIS</h2>
      <!--   <img src="images/hotel.png" width="100%"> -->
        <p>
@@ -536,7 +620,7 @@
     </div>
       
      <div class="project div-top-margin-blue school-holder js-scroll fade-in-bottom">
-      <label class="cert-number-blue">5</label>
+      <label class="cert-number-blue">7</label>
        <h2>University of California, Irvine</h2>
      <!--   <img src="images/hotel.png" width="100%"> -->
        <p>
@@ -550,7 +634,7 @@
        </p>
     </div>
     <div class="project school-holder div-top-margin-yellow js-scroll slide-right">
-      <label class="cert-number-yellow">6</label>
+      <label class="cert-number-yellow">8</label>
       <h2>University of Mennesota</h2>
       <!--  <img src="images/school.png" width="100%"> -->
        <p>
@@ -567,7 +651,7 @@
 
     <div class="projects-holder" id="morecert1">
       <div class="project div-top-margin-pink school-holder js-scroll fade-in-bottom">
-        <label class="cert-number-pink">7</label>
+        <label class="cert-number-pink">9</label>
        <h2>Simplilearn</h2>
      <!--   <img src="images/hotel.png" width="100%"> -->
        <p>
@@ -583,7 +667,7 @@
     </div>
       
      <div class="project div-top-margin-yellow school-holder js-scroll fade-in-bottom">
-      <label class="cert-number-yellow">8</label>
+      <label class="cert-number-yellow">10</label>
        <h2>Simplilearn</h2>
      <!--   <img src="images/hotel.png" width="100%"> -->
        <p>
@@ -600,7 +684,7 @@
        </p>
     </div>
      <div class="project school-holder div-top-margin-blue js-scroll slide-right">
-      <label class="cert-number-blue">9</label>
+      <label class="cert-number-blue">11</label>
       <h2>Great Learning</h2>
       
        <p>
@@ -618,67 +702,11 @@
     </div> 
 
     </div>
+
  <button class="btnmorecert" onclick="MoreCert1()" id="btnviewone">See more certificates ...</button>
     <!-- end of certification -->
   </div>
 </section>
-
-
-<!-- <section class="scroll-container" id="myteam">
-  <div class="scroll-element">
- <center><label class="large text-redish" >My team</label></center>
- <br>
- <div class="events-holder">
-  <div class="more-holder">
-        <div class="image-container js-scroll slide-left">
-    <h1>Jodham wanjala</h1>
-         <div>
-           <img src="images/profile.jpg" width="310px" class="image-change" alt="event image">
-         </div>
-  </div>
-   <div class="journey-container js-scroll slide-left">
-    <p>
-      The purpose of Industrial Training is to get expose  to real work of environment experience and at the same time, to gain the knowledge through hands on observation and job execution. From the industrial training, the I develop skills in work ethics, communication, management and others
-    </p>
-    <label><a href="#">View wanjala</a></label>
-  </div>
-  </div>
-
-  <div class="more-holder">
-        <div class="image-container js-scroll slide-right">
-    <h1>Jackline Adhiambo</h1>
-         <div class="images-shape">
-           <img src="images/iot.jpg" width="310px" class="image-change" alt="event image">
-         </div>
-  </div>
-   <div class="journey-container js-scroll slide-right">
-    <p>
-      The internet of things, or IoT, is a system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers (UIDs) and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.
-    </p>
-     <label><a href="#">View wanjala</a></label>
-  </div>
-  </div>
-    <div class="more-holder">
-        <div class="image-container js-scroll slide-right">
-    <h1>Geofrey Ongidi</h1>
-         <div class="images-shape">
-           <img src="images/industrialtalk.jpg" width="310px" class="image-change" alt="event image">
-         </div>
-  </div>
-   <div class="journey-container js-scroll slide-right">
-    <p>
-      A about the indudtry expectation and on how the tech companies and indudtry at large work.This was a great oppotunity since I was able to meet with the expert from the indutry and learn on various skill need in the tech industry.
-    </p>
-     <label><a href="#">View wanjala</a></label>
-  </div>
-  </div>
- </div>
-
-
-  </div>
-  
-</section> -->
-
 
 
 <section class="scroll-container">
@@ -744,7 +772,7 @@
         <!--2nd-->
         <a href="https://github.com/danielkirwa" class="social-icon social-icon--github" target="_blank">
             <i class="fa fa-github"></i> 
-            <div class="tooltip">36&nbsp;+&nbsp;Public Repositories</div>
+            <div class="tooltip">42&nbsp;+&nbsp;Public Repositories</div>
           </a>
          <!--  
           <a href="#" class="social-icon social-icon--twitter">
@@ -760,7 +788,7 @@
 
     </div>
   <div class="enddiv">
-     Daniel Kipchrchir &copy; 2020 - &nbsp;<span id="currentyear"></span> &nbsp;&nbsp;<a href="https://my-ws-dan.herokuapp.com/">bit.ly/danielkirwa </a> &trade;
+     Daniel Kipchrchir &copy; 2020 - &nbsp;<span id="currentyear"></span> &nbsp;&nbsp;<a href="https://danielkirwa.github.io/danielkirwa/">bit.ly/danielkipchirchir </a> &trade;
   </div>
 
 </div>

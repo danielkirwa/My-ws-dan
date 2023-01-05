@@ -1,0 +1,133 @@
+
+        .my-language-spinner {
+            -webkit-perspective: 250px;
+            -moz-perspective: 250px;
+            width: 400px;
+            height: 200px;
+            top: 50px;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        @-webkit-keyframes efeitomy-language-spinner {
+            from {
+                -webkit-transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+                -moz-transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+                z-index: 10;
+                opacity: 1
+            }
+
+            50% {
+                z-index: -10;
+            }
+
+            to {
+                -webkit-transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+                -moz-transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+                z-index: 10;
+                opacity: 1
+            }
+        }
+
+        @-moz-keyframes efeitomy-language-spinner {
+            from {
+                -moz-transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+                z-index: 10;
+                opacity: 1
+            }
+
+            50% {
+                z-index: -10;
+            }
+
+            to {
+                -moz-transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+                z-index: 10;
+                opacity: 1
+            }
+        }
+
+        .caixa__card {
+            width: 120px;
+            height: 150px;
+            position: absolute;
+            display: flex;
+            font-weight: bold;
+            justify-content: center;
+            align-items: center;
+            top: 35px;
+            left: 125px;
+            font-size: 9px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+            text-align: center;
+            -webkit-animation-name: efeitomy-language-spinner;
+            -moz-animation-name: efeitomy-language-spinner;
+            -webkit-animation-duration: 15s;
+            -moz-animation-duration: 15s;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+        }
+
+        .caixa__card:hover {
+            border: solid #4466cc 3px;
+            box-shadow: 0px 0px 10px #4466cc;
+        }
+
+        .caixa__card.cc__1 {
+            background: linear-gradient(-229deg, #ffffff, #ffffff);
+            -webkit-animation-delay: -7s;
+            -moz-animation-delay: -7s;
+            color: #000;
+        }
+
+        .caixa__card.cc__2 {
+
+            background: linear-gradient(-229deg, #56ab2f ,#a8e063);
+            -webkit-animation-delay: -6s;
+            -moz-animation-delay: -6s;
+            color: #000;
+        }
+
+        .caixa__card.cc__3 {
+
+            background: linear-gradient(-229deg, #DECBA4, #3E5151);
+            -webkit-animation-delay: -5s;
+            -moz-animation-delay: -5s;
+            color: #000;
+        }
+
+        .caixa__card.cc__4 {
+            background: linear-gradient(-229deg, #c6ffdd, #fbd786, #f7797d);
+            -webkit-animation-delay: -4s;
+            -moz-animation-delay: -4s;
+            color: #000;
+        }
+
+        .caixa__card.cc__5 {
+            background: linear-gradient(-229deg,  #00b09b, #96c93d);
+            -webkit-animation-delay: -3s;
+            -moz-animation-delay: -3s;
+            color: #000;
+        }
+
+        .caixa__card.cc__6 {
+            background: linear-gradient(-229deg, #fceabb, #f8b500);
+            -webkit-animation-delay: -2s;
+            -moz-animation-delay: -2s;
+            color: #000;
+        }
+
+        .caixa__card.cc__7 {
+            background: linear-gradient(-229deg, #d64c7f,#ee4758);
+            -webkit-animation-delay: -1s;
+            -moz-animation-delay: -1s;
+            color: #000;
+        }
+
+        .caixa__card.cc__8 {
+            background: linear-gradient(-229deg, #870000, #190a05);
+            color: #fff;
+        }
